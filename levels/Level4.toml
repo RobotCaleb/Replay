@@ -1,0 +1,924 @@
+[Level]
+
+[Level.Entities]
+
+[[Level.Entities.Door]]
+ID = "168"
+Type = "DoorNorthSouth"
+X = "2"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "169"
+Type = "DoorNorthSouth"
+X = "4"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "170"
+Type = "DoorNorthSouth"
+X = "6"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "171"
+Type = "DoorNorthSouth"
+X = "8"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "172"
+Type = "DoorNorthSouth"
+X = "10"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "173"
+Type = "DoorNorthSouth"
+X = "12"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "174"
+Type = "DoorNorthSouth"
+X = "14"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "175"
+Type = "DoorNorthSouth"
+X = "15"
+Y = "7"
+
+[[Level.Entities.Door]]
+ID = "176"
+Type = "DoorNorthSouth"
+X = "17"
+Y = "7"
+
+[Level.Entities.Finish]
+ID = "178"
+X = "11"
+Y = "6"
+
+[[Level.Entities.SpikeBall]]
+ID = "156"
+Type = "SpikeBallNorthIgnore"
+X = "8"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+ID = "157"
+Type = "SpikeBallEastIgnore"
+X = "4"
+Y = "4"
+
+[[Level.Entities.SpikeBall]]
+ID = "158"
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+ID = "159"
+Type = "SpikeBallEastIgnore"
+X = "9"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+ID = "160"
+Type = "SpikeBallWestIgnore"
+X = "11"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+ID = "161"
+Type = "SpikeBallWestIgnore"
+X = "18"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+ID = "162"
+Type = "SpikeBallNorthIgnore"
+X = "0"
+Y = "12"
+
+[Level.Entities.Start]
+ID = "177"
+X = "9"
+Y = "5"
+
+[[Level.Entities.Teleport]]
+ID = "163"
+TX = "0"
+TY = "10"
+X = "0"
+Y = "5"
+
+[[Level.Entities.Teleport]]
+ID = "164"
+TX = "12"
+TY = "4"
+X = "13"
+Y = "5"
+
+[[Level.Entities.Teleport]]
+ID = "165"
+TX = "9"
+TY = "8"
+X = "9"
+Y = "6"
+
+[[Level.Entities.Teleport]]
+ID = "166"
+TX = "0"
+TY = "4"
+X = "0"
+Y = "9"
+
+[[Level.Entities.Teleport]]
+ID = "167"
+TX = "14"
+TY = "3"
+X = "5"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "0"
+X = "0"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "1"
+X = "1"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "2"
+X = "2"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "3"
+X = "3"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "4"
+X = "4"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "5"
+X = "5"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "6"
+X = "6"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "7"
+X = "7"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "8"
+X = "8"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "9"
+X = "9"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "10"
+X = "10"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "11"
+X = "11"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "12"
+X = "12"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "13"
+X = "13"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "14"
+X = "14"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "15"
+X = "15"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "16"
+X = "16"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "17"
+X = "17"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "18"
+X = "18"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "19"
+X = "19"
+Y = "0"
+
+[[Level.Entities.Wall]]
+ID = "20"
+X = "10"
+Y = "1"
+
+[[Level.Entities.Wall]]
+ID = "21"
+X = "19"
+Y = "1"
+
+[[Level.Entities.Wall]]
+ID = "22"
+X = "1"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "23"
+X = "2"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "24"
+X = "3"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "25"
+X = "4"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "26"
+X = "5"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "27"
+X = "6"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "28"
+X = "7"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "29"
+X = "10"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "30"
+X = "12"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "31"
+X = "13"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "32"
+X = "14"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "33"
+X = "15"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "34"
+X = "16"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "35"
+X = "17"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "36"
+X = "19"
+Y = "2"
+
+[[Level.Entities.Wall]]
+ID = "37"
+X = "1"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "38"
+X = "2"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "39"
+X = "6"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "40"
+X = "7"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "41"
+X = "10"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "42"
+X = "12"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "43"
+X = "13"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "44"
+X = "17"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "45"
+X = "19"
+Y = "3"
+
+[[Level.Entities.Wall]]
+ID = "46"
+X = "2"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "47"
+X = "6"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "48"
+X = "9"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "49"
+X = "10"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "50"
+X = "13"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "51"
+X = "14"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "52"
+X = "15"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "53"
+X = "17"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "54"
+X = "19"
+Y = "4"
+
+[[Level.Entities.Wall]]
+ID = "55"
+X = "2"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "56"
+X = "4"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "57"
+X = "6"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "58"
+X = "8"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "59"
+X = "10"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "60"
+X = "11"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "61"
+X = "12"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "62"
+X = "14"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "63"
+X = "15"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "64"
+X = "17"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "65"
+X = "19"
+Y = "5"
+
+[[Level.Entities.Wall]]
+ID = "66"
+X = "0"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "67"
+X = "2"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "68"
+X = "4"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "69"
+X = "6"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "70"
+X = "8"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "71"
+X = "10"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "72"
+X = "12"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "73"
+X = "14"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "74"
+X = "15"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "75"
+X = "17"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "76"
+X = "19"
+Y = "6"
+
+[[Level.Entities.Wall]]
+ID = "77"
+X = "0"
+Y = "7"
+
+[[Level.Entities.Wall]]
+ID = "78"
+X = "19"
+Y = "7"
+
+[[Level.Entities.Wall]]
+ID = "79"
+X = "0"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "80"
+X = "2"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "81"
+X = "4"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "82"
+X = "6"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "83"
+X = "8"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "84"
+X = "10"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "85"
+X = "12"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "86"
+X = "14"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "87"
+X = "15"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "88"
+X = "17"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "89"
+X = "19"
+Y = "8"
+
+[[Level.Entities.Wall]]
+ID = "90"
+X = "2"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "91"
+X = "4"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "92"
+X = "6"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "93"
+X = "8"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "94"
+X = "10"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "95"
+X = "12"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "96"
+X = "14"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "97"
+X = "15"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "98"
+X = "17"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "99"
+X = "19"
+Y = "9"
+
+[[Level.Entities.Wall]]
+ID = "100"
+X = "2"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "101"
+X = "4"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "102"
+X = "5"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "103"
+X = "6"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "104"
+X = "8"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "105"
+X = "10"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "106"
+X = "12"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "107"
+X = "14"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "108"
+X = "15"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "109"
+X = "17"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "110"
+X = "19"
+Y = "10"
+
+[[Level.Entities.Wall]]
+ID = "111"
+X = "1"
+Y = "11"
+
+[[Level.Entities.Wall]]
+ID = "112"
+X = "2"
+Y = "11"
+
+[[Level.Entities.Wall]]
+ID = "113"
+X = "8"
+Y = "11"
+
+[[Level.Entities.Wall]]
+ID = "114"
+X = "10"
+Y = "11"
+
+[[Level.Entities.Wall]]
+ID = "115"
+X = "12"
+Y = "11"
+
+[[Level.Entities.Wall]]
+ID = "116"
+X = "17"
+Y = "11"
+
+[[Level.Entities.Wall]]
+ID = "117"
+X = "19"
+Y = "11"
+
+[[Level.Entities.Wall]]
+ID = "118"
+X = "1"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "119"
+X = "2"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "120"
+X = "3"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "121"
+X = "4"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "122"
+X = "5"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "123"
+X = "6"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "124"
+X = "7"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "125"
+X = "8"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "126"
+X = "10"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "127"
+X = "12"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "128"
+X = "13"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "129"
+X = "14"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "130"
+X = "15"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "131"
+X = "16"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "132"
+X = "17"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "133"
+X = "19"
+Y = "12"
+
+[[Level.Entities.Wall]]
+ID = "134"
+X = "10"
+Y = "13"
+
+[[Level.Entities.Wall]]
+ID = "135"
+X = "19"
+Y = "13"
+
+[[Level.Entities.Wall]]
+ID = "136"
+X = "0"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "137"
+X = "1"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "138"
+X = "2"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "139"
+X = "3"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "140"
+X = "4"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "141"
+X = "5"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "142"
+X = "6"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "143"
+X = "7"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "144"
+X = "8"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "145"
+X = "9"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "146"
+X = "10"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "147"
+X = "11"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "148"
+X = "12"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "149"
+X = "13"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "150"
+X = "14"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "151"
+X = "15"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "152"
+X = "16"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "153"
+X = "17"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "154"
+X = "18"
+Y = "14"
+
+[[Level.Entities.Wall]]
+ID = "155"
+X = "19"
+Y = "14"

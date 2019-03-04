@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+  <Entities>
+    <Wall ID="0" X="9" Y="0" />
+    <Wall ID="1" X="13" Y="0" />
+    <Wall ID="2" X="18" Y="0" />
+    <Wall ID="3" X="1" Y="1" />
+    <Wall ID="4" X="9" Y="1" />
+    <Wall ID="5" X="13" Y="1" />
+    <Wall ID="6" X="14" Y="1" />
+    <Wall ID="7" X="15" Y="1" />
+    <Wall ID="8" X="16" Y="1" />
+    <Wall ID="9" X="18" Y="1" />
+    <Wall ID="10" X="2" Y="2" />
+    <Wall ID="11" X="3" Y="2" />
+    <Wall ID="12" X="4" Y="2" />
+    <Wall ID="13" X="16" Y="2" />
+    <Wall ID="14" X="18" Y="2" />
+    <Wall ID="15" X="5" Y="3" />
+    <Wall ID="16" X="6" Y="3" />
+    <Wall ID="17" X="11" Y="3" />
+    <Wall ID="18" X="12" Y="3" />
+    <Wall ID="19" X="13" Y="3" />
+    <Wall ID="20" X="14" Y="3" />
+    <Wall ID="21" X="16" Y="3" />
+    <Wall ID="22" X="18" Y="3" />
+    <Wall ID="23" X="7" Y="4" />
+    <Wall ID="24" X="10" Y="4" />
+    <Wall ID="25" X="16" Y="4" />
+    <Wall ID="26" X="18" Y="4" />
+    <Wall ID="27" X="6" Y="5" />
+    <Wall ID="28" X="9" Y="5" />
+    <Wall ID="29" X="16" Y="5" />
+    <Wall ID="30" X="17" Y="5" />
+    <Wall ID="31" X="18" Y="5" />
+    <Wall ID="32" X="5" Y="6" />
+    <Wall ID="33" X="8" Y="6" />
+    <Wall ID="34" X="18" Y="6" />
+    <Wall ID="35" X="19" Y="6" />
+    <Wall ID="36" X="4" Y="7" />
+    <Wall ID="37" X="10" Y="7" />
+    <Wall ID="38" X="18" Y="7" />
+    <Wall ID="39" X="19" Y="7" />
+    <Wall ID="40" X="4" Y="8" />
+    <Wall ID="41" X="6" Y="8" />
+    <Wall ID="42" X="9" Y="8" />
+    <Wall ID="43" X="11" Y="8" />
+    <Wall ID="44" X="18" Y="8" />
+    <Wall ID="45" X="3" Y="9" />
+    <Wall ID="46" X="5" Y="9" />
+    <Wall ID="47" X="8" Y="9" />
+    <Wall ID="48" X="11" Y="9" />
+    <Wall ID="49" X="16" Y="9" />
+    <Wall ID="50" X="17" Y="9" />
+    <Wall ID="51" X="18" Y="9" />
+    <Wall ID="52" X="6" Y="10" />
+    <Wall ID="53" X="7" Y="10" />
+    <Wall ID="54" X="12" Y="10" />
+    <Wall ID="55" X="18" Y="10" />
+    <Wall ID="56" X="0" Y="11" />
+    <Wall ID="57" X="1" Y="11" />
+    <Wall ID="58" X="3" Y="11" />
+    <Wall ID="59" X="5" Y="11" />
+    <Wall ID="60" X="12" Y="11" />
+    <Wall ID="61" X="18" Y="11" />
+    <Wall ID="62" X="12" Y="12" />
+    <Wall ID="63" X="18" Y="12" />
+    <Wall ID="64" X="1" Y="13" />
+    <Wall ID="65" X="2" Y="13" />
+    <Wall ID="66" X="3" Y="13" />
+    <Wall ID="67" X="13" Y="13" />
+    <Wall ID="68" X="18" Y="13" />
+    <Wall ID="69" X="1" Y="14" />
+    <Wall ID="70" X="2" Y="14" />
+    <Wall ID="71" X="3" Y="14" />
+    <Wall ID="72" X="18" Y="14" />
+    <Wall ID="73" X="19" Y="14" />
+    <SpikeBall ID="74" X="0" Y="0" Type="SpikeBallEastIgnore" />
+    <SpikeBall ID="75" X="12" Y="0" Type="SpikeBallWest" />
+    <SpikeBall ID="76" X="17" Y="0" Type="SpikeBallWest" />
+    <SpikeBall ID="77" X="19" Y="0" Type="SpikeBallNorthIgnore" />
+    <SpikeBall ID="78" X="8" Y="1" Type="SpikeBallWest" />
+    <SpikeBall ID="79" X="10" Y="1" Type="SpikeBallEastIgnore" />
+    <SpikeBall ID="80" X="17" Y="1" Type="SpikeBallNorth" />
+    <SpikeBall ID="81" X="4" Y="4" Type="SpikeBallEastIgnore" />
+    <SpikeBall ID="82" X="5" Y="5" Type="SpikeBallEast" />
+    <SpikeBall ID="83" X="4" Y="6" Type="SpikeBallEastIgnore" />
+    <SpikeBall ID="84" X="17" Y="6" Type="SpikeBallNorth" />
+    <SpikeBall ID="85" X="7" Y="8" Type="SpikeBallNorthIgnore" />
+    <SpikeBall ID="86" X="16" Y="8" Type="SpikeBallNorthIgnore" />
+    <SpikeBall ID="87" X="9" Y="9" Type="SpikeBallNorthIgnore" />
+    <SpikeBall ID="88" X="4" Y="10" Type="SpikeBallNorth" />
+    <SpikeBall ID="89" X="5" Y="10" Type="SpikeBallWest" />
+    <SpikeBall ID="90" X="8" Y="10" Type="SpikeBallNorth" />
+    <SpikeBall ID="91" X="10" Y="10" Type="SpikeBallNorth" />
+    <SpikeBall ID="92" X="19" Y="12" Type="SpikeBallNorth" />
+    <SpikeBall ID="93" X="17" Y="14" Type="SpikeBallSouthIgnore" />
+    <Teleport ID="94" X="15" Y="2" TargetX="0" TargetY="0" />
+    <Door ID="95" X="15" Y="0" Type="DoorNorthSouth" />
+    <Door ID="96" X="17" Y="3" Type="DoorEastWest" />
+    <Door ID="97" X="7" Y="7" Type="DoorEastWest" />
+    <Door ID="98" X="3" Y="10" Type="DoorNorthSouth" />
+    <Door ID="99" X="2" Y="11" Type="DoorEastWest" />
+    <Door ID="100" X="4" Y="11" Type="DoorEastWest" />
+    <Door ID="101" X="1" Y="12" Type="DoorNorthSouth" />
+    <Door ID="102" X="3" Y="12" Type="DoorNorthSouth" />
+    <Door ID="103" X="0" Y="13" Type="DoorEastWest" />
+    <Switch ID="104" X="14" Y="0">
+      <Toggles ID="-1" />
+    </Switch>
+    <Switch ID="105" X="19" Y="2">
+      <Toggles ID="102" />
+    </Switch>
+    <Switch ID="106" X="19" Y="3">
+      <Toggles ID="102" />
+    </Switch>
+    <Switch ID="107" X="17" Y="4">
+      <Toggles ID="-1" />
+    </Switch>
+    <Switch ID="108" X="5" Y="8">
+      <Toggles ID="-1" />
+    </Switch>
+    <Switch ID="109" X="6" Y="9">
+      <Toggles ID="-1" />
+    </Switch>
+    <Switch ID="110" X="19" Y="10">
+      <Toggles ID="-1" />
+    </Switch>
+    <Start ID="111" X="2" Y="12" />
+    <Finish ID="112" X="0" Y="14" />
+  </Entities>
+</Level>

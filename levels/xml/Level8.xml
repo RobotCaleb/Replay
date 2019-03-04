@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+  <Entities>
+    <Wall X="0" Y="0" />
+    <Wall X="1" Y="0" />
+    <Wall X="2" Y="0" />
+    <Wall X="3" Y="0" />
+    <Wall X="4" Y="0" />
+    <Wall X="5" Y="0" />
+    <Wall X="6" Y="0" />
+    <Wall X="7" Y="0" />
+    <Wall X="8" Y="0" />
+    <Wall X="9" Y="0" />
+    <Wall X="10" Y="0" />
+    <Wall X="11" Y="0" />
+    <Wall X="12" Y="0" />
+    <Wall X="13" Y="0" />
+    <Wall X="14" Y="0" />
+    <Wall X="15" Y="0" />
+    <Wall X="16" Y="0" />
+    <Wall X="17" Y="0" />
+    <Wall X="18" Y="0" />
+    <Wall X="19" Y="0" />
+    <Wall X="0" Y="1" />
+    <Wall X="5" Y="1" />
+    <Wall X="14" Y="1" />
+    <Wall X="19" Y="1" />
+    <Wall X="0" Y="2" />
+    <Wall X="1" Y="2" />
+    <Wall X="2" Y="2" />
+    <Wall X="3" Y="2" />
+    <Wall X="4" Y="2" />
+    <Wall X="5" Y="2" />
+    <Wall X="14" Y="2" />
+    <Wall X="15" Y="2" />
+    <Wall X="16" Y="2" />
+    <Wall X="17" Y="2" />
+    <Wall X="18" Y="2" />
+    <Wall X="19" Y="2" />
+    <Wall X="0" Y="3" />
+    <Wall X="19" Y="3" />
+    <Wall X="0" Y="4" />
+    <Wall X="19" Y="4" />
+    <Wall X="0" Y="5" />
+    <Wall X="19" Y="5" />
+    <Wall X="0" Y="6" />
+    <Wall X="19" Y="6" />
+    <Wall X="0" Y="7" />
+    <Wall X="19" Y="7" />
+    <Wall X="0" Y="8" />
+    <Wall X="19" Y="8" />
+    <Wall X="0" Y="9" />
+    <Wall X="19" Y="9" />
+    <Wall X="0" Y="10" />
+    <Wall X="19" Y="10" />
+    <Wall X="0" Y="11" />
+    <Wall X="19" Y="11" />
+    <Wall X="0" Y="12" />
+    <Wall X="19" Y="12" />
+    <Wall X="0" Y="13" />
+    <Wall X="19" Y="13" />
+    <Wall X="0" Y="14" />
+    <Wall X="1" Y="14" />
+    <Wall X="2" Y="14" />
+    <Wall X="3" Y="14" />
+    <Wall X="4" Y="14" />
+    <Wall X="5" Y="14" />
+    <Wall X="6" Y="14" />
+    <Wall X="7" Y="14" />
+    <Wall X="8" Y="14" />
+    <Wall X="9" Y="14" />
+    <Wall X="10" Y="14" />
+    <Wall X="11" Y="14" />
+    <Wall X="12" Y="14" />
+    <Wall X="13" Y="14" />
+    <Wall X="14" Y="14" />
+    <Wall X="15" Y="14" />
+    <Wall X="16" Y="14" />
+    <Wall X="17" Y="14" />
+    <Wall X="18" Y="14" />
+    <Wall X="19" Y="14" />
+    <SpikeBall X="1" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="5" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="7" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="8" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="9" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="10" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="12" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="3" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="4" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="3" Y="4" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="5" Y="4" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="7" Y="4" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="12" Y="4" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="4" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="3" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="5" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="7" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="8" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="9" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="12" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="5" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="6" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="3" Y="6" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="5" Y="6" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="7" Y="6" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="12" Y="6" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="6" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="2" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="4" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="7" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="8" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="9" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="10" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="12" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="13" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="14" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="17" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="18" Y="7" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="2" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="6" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="7" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="10" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="13" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="15" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="17" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="18" Y="9" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="3" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="5" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="8" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="10" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="11" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="13" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="15" Y="10" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="3" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="5" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="8" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="10" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="11" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="12" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="13" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="15" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="17" Y="11" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="3" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="5" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="8" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="10" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="12" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="13" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="15" Y="12" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="1" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="2" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="6" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="7" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="10" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="13" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="15" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="16" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="17" Y="13" Type="SpikeBallEastIgnore" />
+    <SpikeBall X="18" Y="13" Type="SpikeBallEastIgnore" />
+    <Teleport X="15" Y="1" TargetX="4" TargetY="1" />
+    <Start X="18" Y="1" />
+    <Finish X="1" Y="1" />
+  </Entities>
+</Level>

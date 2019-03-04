@@ -1,0 +1,764 @@
+[Level]
+
+[Level.Entities]
+
+[Level.Entities.Finish]
+X = "1"
+Y = "1"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "5"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "7"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "8"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "9"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "10"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "12"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "3"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "4"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "3"
+Y = "4"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "5"
+Y = "4"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "7"
+Y = "4"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "12"
+Y = "4"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "4"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "3"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "5"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "7"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "8"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "9"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "12"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "5"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "6"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "3"
+Y = "6"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "5"
+Y = "6"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "7"
+Y = "6"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "12"
+Y = "6"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "6"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "2"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "4"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "7"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "8"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "9"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "10"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "12"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "13"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "14"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "17"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "18"
+Y = "7"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "2"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "6"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "7"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "10"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "13"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "15"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "17"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "18"
+Y = "9"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "3"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "5"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "8"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "10"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "11"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "13"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "15"
+Y = "10"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "3"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "5"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "8"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "10"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "11"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "12"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "13"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "15"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "17"
+Y = "11"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "3"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "5"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "8"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "10"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "12"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "13"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "15"
+Y = "12"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "1"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "2"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "6"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "7"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "10"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "13"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "15"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "16"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "17"
+Y = "13"
+
+[[Level.Entities.SpikeBall]]
+Type = "SpikeBallEastIgnore"
+X = "18"
+Y = "13"
+
+[Level.Entities.Start]
+X = "18"
+Y = "1"
+
+[Level.Entities.Teleport]
+TargetX = "4"
+TargetY = "1"
+X = "15"
+Y = "1"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "1"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "2"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "3"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "4"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "5"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "6"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "7"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "8"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "9"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "10"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "11"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "12"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "13"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "14"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "15"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "16"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "17"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "18"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "0"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "1"
+
+[[Level.Entities.Wall]]
+X = "5"
+Y = "1"
+
+[[Level.Entities.Wall]]
+X = "14"
+Y = "1"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "1"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "1"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "2"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "3"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "4"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "5"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "14"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "15"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "16"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "17"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "18"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "2"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "3"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "3"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "4"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "4"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "5"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "5"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "6"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "6"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "7"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "7"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "8"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "8"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "9"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "9"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "10"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "10"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "11"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "11"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "12"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "12"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "13"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "13"
+
+[[Level.Entities.Wall]]
+X = "0"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "1"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "2"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "3"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "4"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "5"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "6"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "7"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "8"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "9"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "10"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "11"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "12"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "13"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "14"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "15"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "16"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "17"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "18"
+Y = "14"
+
+[[Level.Entities.Wall]]
+X = "19"
+Y = "14"
