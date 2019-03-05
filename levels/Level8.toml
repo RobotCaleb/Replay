@@ -1,764 +1,928 @@
-[Level]
-
-[Level.Entities]
-
-[Level.Entities.Finish]
-X = "1"
-Y = "1"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "5"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "7"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "8"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "9"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "10"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "12"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "3"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "4"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "3"
-Y = "4"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "5"
-Y = "4"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "7"
-Y = "4"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "12"
-Y = "4"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "4"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "3"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "5"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "7"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "8"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "9"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "12"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "5"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "6"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "3"
-Y = "6"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "5"
-Y = "6"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "7"
-Y = "6"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "12"
-Y = "6"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "6"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "2"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "4"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "7"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "8"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "9"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "10"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "12"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "13"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "14"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "17"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "18"
-Y = "7"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "2"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "6"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "7"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "10"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "13"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "15"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "17"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "18"
-Y = "9"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "3"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "5"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "8"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "10"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "11"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "13"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "15"
-Y = "10"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "3"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "5"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "8"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "10"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "11"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "12"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "13"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "15"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "17"
-Y = "11"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "3"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "5"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "8"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "10"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "12"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "13"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "15"
-Y = "12"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "1"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "2"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "6"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "7"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "10"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "13"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "15"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "16"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "17"
-Y = "13"
-
-[[Level.Entities.SpikeBall]]
-Type = "SpikeBallEastIgnore"
-X = "18"
-Y = "13"
-
-[Level.Entities.Start]
-X = "18"
-Y = "1"
-
-[Level.Entities.Teleport]
-TargetX = "4"
-TargetY = "1"
-X = "15"
-Y = "1"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "1"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "2"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "3"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "4"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "5"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "6"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "7"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "8"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "9"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "10"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "11"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "12"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "13"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "14"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "15"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "16"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "17"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "18"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "0"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "1"
-
-[[Level.Entities.Wall]]
-X = "5"
-Y = "1"
-
-[[Level.Entities.Wall]]
-X = "14"
-Y = "1"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "1"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "1"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "2"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "3"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "4"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "5"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "14"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "15"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "16"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "17"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "18"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "2"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "3"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "3"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "4"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "4"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "5"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "5"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "6"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "6"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "7"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "7"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "8"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "8"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "9"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "9"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "10"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "10"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "11"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "11"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "12"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "12"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "13"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "13"
-
-[[Level.Entities.Wall]]
-X = "0"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "1"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "2"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "3"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "4"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "5"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "6"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "7"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "8"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "9"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "10"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "11"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "12"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "13"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "14"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "15"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "16"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "17"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "18"
-Y = "14"
-
-[[Level.Entities.Wall]]
-X = "19"
-Y = "14"
+[finish]
+id = 0
+x = 1
+y = 1
+
+[[spikeballs]]
+id = 1
+type = "SpikeBallEastIgnore"
+x = 1
+y = 3
+
+[[spikeballs]]
+id = 2
+type = "SpikeBallEastIgnore"
+x = 5
+y = 3
+
+[[spikeballs]]
+id = 3
+type = "SpikeBallEastIgnore"
+x = 7
+y = 3
+
+[[spikeballs]]
+id = 4
+type = "SpikeBallEastIgnore"
+x = 8
+y = 3
+
+[[spikeballs]]
+id = 5
+type = "SpikeBallEastIgnore"
+x = 9
+y = 3
+
+[[spikeballs]]
+id = 6
+type = "SpikeBallEastIgnore"
+x = 10
+y = 3
+
+[[spikeballs]]
+id = 7
+type = "SpikeBallEastIgnore"
+x = 12
+y = 3
+
+[[spikeballs]]
+id = 8
+type = "SpikeBallEastIgnore"
+x = 16
+y = 3
+
+[[spikeballs]]
+id = 9
+type = "SpikeBallEastIgnore"
+x = 1
+y = 4
+
+[[spikeballs]]
+id = 10
+type = "SpikeBallEastIgnore"
+x = 3
+y = 4
+
+[[spikeballs]]
+id = 11
+type = "SpikeBallEastIgnore"
+x = 5
+y = 4
+
+[[spikeballs]]
+id = 12
+type = "SpikeBallEastIgnore"
+x = 7
+y = 4
+
+[[spikeballs]]
+id = 13
+type = "SpikeBallEastIgnore"
+x = 12
+y = 4
+
+[[spikeballs]]
+id = 14
+type = "SpikeBallEastIgnore"
+x = 16
+y = 4
+
+[[spikeballs]]
+id = 15
+type = "SpikeBallEastIgnore"
+x = 1
+y = 5
+
+[[spikeballs]]
+id = 16
+type = "SpikeBallEastIgnore"
+x = 3
+y = 5
+
+[[spikeballs]]
+id = 17
+type = "SpikeBallEastIgnore"
+x = 5
+y = 5
+
+[[spikeballs]]
+id = 18
+type = "SpikeBallEastIgnore"
+x = 7
+y = 5
+
+[[spikeballs]]
+id = 19
+type = "SpikeBallEastIgnore"
+x = 8
+y = 5
+
+[[spikeballs]]
+id = 20
+type = "SpikeBallEastIgnore"
+x = 9
+y = 5
+
+[[spikeballs]]
+id = 21
+type = "SpikeBallEastIgnore"
+x = 12
+y = 5
+
+[[spikeballs]]
+id = 22
+type = "SpikeBallEastIgnore"
+x = 16
+y = 5
+
+[[spikeballs]]
+id = 23
+type = "SpikeBallEastIgnore"
+x = 1
+y = 6
+
+[[spikeballs]]
+id = 24
+type = "SpikeBallEastIgnore"
+x = 3
+y = 6
+
+[[spikeballs]]
+id = 25
+type = "SpikeBallEastIgnore"
+x = 5
+y = 6
+
+[[spikeballs]]
+id = 26
+type = "SpikeBallEastIgnore"
+x = 7
+y = 6
+
+[[spikeballs]]
+id = 27
+type = "SpikeBallEastIgnore"
+x = 12
+y = 6
+
+[[spikeballs]]
+id = 28
+type = "SpikeBallEastIgnore"
+x = 16
+y = 6
+
+[[spikeballs]]
+id = 29
+type = "SpikeBallEastIgnore"
+x = 2
+y = 7
+
+[[spikeballs]]
+id = 30
+type = "SpikeBallEastIgnore"
+x = 4
+y = 7
+
+[[spikeballs]]
+id = 31
+type = "SpikeBallEastIgnore"
+x = 7
+y = 7
+
+[[spikeballs]]
+id = 32
+type = "SpikeBallEastIgnore"
+x = 8
+y = 7
+
+[[spikeballs]]
+id = 33
+type = "SpikeBallEastIgnore"
+x = 9
+y = 7
+
+[[spikeballs]]
+id = 34
+type = "SpikeBallEastIgnore"
+x = 10
+y = 7
+
+[[spikeballs]]
+id = 35
+type = "SpikeBallEastIgnore"
+x = 12
+y = 7
+
+[[spikeballs]]
+id = 36
+type = "SpikeBallEastIgnore"
+x = 13
+y = 7
+
+[[spikeballs]]
+id = 37
+type = "SpikeBallEastIgnore"
+x = 14
+y = 7
+
+[[spikeballs]]
+id = 38
+type = "SpikeBallEastIgnore"
+x = 16
+y = 7
+
+[[spikeballs]]
+id = 39
+type = "SpikeBallEastIgnore"
+x = 17
+y = 7
+
+[[spikeballs]]
+id = 40
+type = "SpikeBallEastIgnore"
+x = 18
+y = 7
+
+[[spikeballs]]
+id = 41
+type = "SpikeBallEastIgnore"
+x = 1
+y = 9
+
+[[spikeballs]]
+id = 42
+type = "SpikeBallEastIgnore"
+x = 2
+y = 9
+
+[[spikeballs]]
+id = 43
+type = "SpikeBallEastIgnore"
+x = 6
+y = 9
+
+[[spikeballs]]
+id = 44
+type = "SpikeBallEastIgnore"
+x = 7
+y = 9
+
+[[spikeballs]]
+id = 45
+type = "SpikeBallEastIgnore"
+x = 10
+y = 9
+
+[[spikeballs]]
+id = 46
+type = "SpikeBallEastIgnore"
+x = 13
+y = 9
+
+[[spikeballs]]
+id = 47
+type = "SpikeBallEastIgnore"
+x = 15
+y = 9
+
+[[spikeballs]]
+id = 48
+type = "SpikeBallEastIgnore"
+x = 16
+y = 9
+
+[[spikeballs]]
+id = 49
+type = "SpikeBallEastIgnore"
+x = 17
+y = 9
+
+[[spikeballs]]
+id = 50
+type = "SpikeBallEastIgnore"
+x = 18
+y = 9
+
+[[spikeballs]]
+id = 51
+type = "SpikeBallEastIgnore"
+x = 1
+y = 10
+
+[[spikeballs]]
+id = 52
+type = "SpikeBallEastIgnore"
+x = 3
+y = 10
+
+[[spikeballs]]
+id = 53
+type = "SpikeBallEastIgnore"
+x = 5
+y = 10
+
+[[spikeballs]]
+id = 54
+type = "SpikeBallEastIgnore"
+x = 8
+y = 10
+
+[[spikeballs]]
+id = 55
+type = "SpikeBallEastIgnore"
+x = 10
+y = 10
+
+[[spikeballs]]
+id = 56
+type = "SpikeBallEastIgnore"
+x = 11
+y = 10
+
+[[spikeballs]]
+id = 57
+type = "SpikeBallEastIgnore"
+x = 13
+y = 10
+
+[[spikeballs]]
+id = 58
+type = "SpikeBallEastIgnore"
+x = 15
+y = 10
+
+[[spikeballs]]
+id = 59
+type = "SpikeBallEastIgnore"
+x = 1
+y = 11
+
+[[spikeballs]]
+id = 60
+type = "SpikeBallEastIgnore"
+x = 3
+y = 11
+
+[[spikeballs]]
+id = 61
+type = "SpikeBallEastIgnore"
+x = 5
+y = 11
+
+[[spikeballs]]
+id = 62
+type = "SpikeBallEastIgnore"
+x = 8
+y = 11
+
+[[spikeballs]]
+id = 63
+type = "SpikeBallEastIgnore"
+x = 10
+y = 11
+
+[[spikeballs]]
+id = 64
+type = "SpikeBallEastIgnore"
+x = 11
+y = 11
+
+[[spikeballs]]
+id = 65
+type = "SpikeBallEastIgnore"
+x = 12
+y = 11
+
+[[spikeballs]]
+id = 66
+type = "SpikeBallEastIgnore"
+x = 13
+y = 11
+
+[[spikeballs]]
+id = 67
+type = "SpikeBallEastIgnore"
+x = 15
+y = 11
+
+[[spikeballs]]
+id = 68
+type = "SpikeBallEastIgnore"
+x = 16
+y = 11
+
+[[spikeballs]]
+id = 69
+type = "SpikeBallEastIgnore"
+x = 17
+y = 11
+
+[[spikeballs]]
+id = 70
+type = "SpikeBallEastIgnore"
+x = 1
+y = 12
+
+[[spikeballs]]
+id = 71
+type = "SpikeBallEastIgnore"
+x = 3
+y = 12
+
+[[spikeballs]]
+id = 72
+type = "SpikeBallEastIgnore"
+x = 5
+y = 12
+
+[[spikeballs]]
+id = 73
+type = "SpikeBallEastIgnore"
+x = 8
+y = 12
+
+[[spikeballs]]
+id = 74
+type = "SpikeBallEastIgnore"
+x = 10
+y = 12
+
+[[spikeballs]]
+id = 75
+type = "SpikeBallEastIgnore"
+x = 12
+y = 12
+
+[[spikeballs]]
+id = 76
+type = "SpikeBallEastIgnore"
+x = 13
+y = 12
+
+[[spikeballs]]
+id = 77
+type = "SpikeBallEastIgnore"
+x = 15
+y = 12
+
+[[spikeballs]]
+id = 78
+type = "SpikeBallEastIgnore"
+x = 1
+y = 13
+
+[[spikeballs]]
+id = 79
+type = "SpikeBallEastIgnore"
+x = 2
+y = 13
+
+[[spikeballs]]
+id = 80
+type = "SpikeBallEastIgnore"
+x = 6
+y = 13
+
+[[spikeballs]]
+id = 81
+type = "SpikeBallEastIgnore"
+x = 7
+y = 13
+
+[[spikeballs]]
+id = 82
+type = "SpikeBallEastIgnore"
+x = 10
+y = 13
+
+[[spikeballs]]
+id = 83
+type = "SpikeBallEastIgnore"
+x = 13
+y = 13
+
+[[spikeballs]]
+id = 84
+type = "SpikeBallEastIgnore"
+x = 15
+y = 13
+
+[[spikeballs]]
+id = 85
+type = "SpikeBallEastIgnore"
+x = 16
+y = 13
+
+[[spikeballs]]
+id = 86
+type = "SpikeBallEastIgnore"
+x = 17
+y = 13
+
+[[spikeballs]]
+id = 87
+type = "SpikeBallEastIgnore"
+x = 18
+y = 13
+
+[start]
+id = 88
+x = 18
+y = 1
+
+[[teleports]]
+id = 89
+tx = 4
+ty = 1
+x = 15
+y = 1
+
+[[walls]]
+id = 90
+x = 0
+y = 0
+
+[[walls]]
+id = 91
+x = 1
+y = 0
+
+[[walls]]
+id = 92
+x = 2
+y = 0
+
+[[walls]]
+id = 93
+x = 3
+y = 0
+
+[[walls]]
+id = 94
+x = 4
+y = 0
+
+[[walls]]
+id = 95
+x = 5
+y = 0
+
+[[walls]]
+id = 96
+x = 6
+y = 0
+
+[[walls]]
+id = 97
+x = 7
+y = 0
+
+[[walls]]
+id = 98
+x = 8
+y = 0
+
+[[walls]]
+id = 99
+x = 9
+y = 0
+
+[[walls]]
+id = 100
+x = 10
+y = 0
+
+[[walls]]
+id = 101
+x = 11
+y = 0
+
+[[walls]]
+id = 102
+x = 12
+y = 0
+
+[[walls]]
+id = 103
+x = 13
+y = 0
+
+[[walls]]
+id = 104
+x = 14
+y = 0
+
+[[walls]]
+id = 105
+x = 15
+y = 0
+
+[[walls]]
+id = 106
+x = 16
+y = 0
+
+[[walls]]
+id = 107
+x = 17
+y = 0
+
+[[walls]]
+id = 108
+x = 18
+y = 0
+
+[[walls]]
+id = 109
+x = 19
+y = 0
+
+[[walls]]
+id = 110
+x = 0
+y = 1
+
+[[walls]]
+id = 111
+x = 5
+y = 1
+
+[[walls]]
+id = 112
+x = 14
+y = 1
+
+[[walls]]
+id = 113
+x = 19
+y = 1
+
+[[walls]]
+id = 114
+x = 0
+y = 2
+
+[[walls]]
+id = 115
+x = 1
+y = 2
+
+[[walls]]
+id = 116
+x = 2
+y = 2
+
+[[walls]]
+id = 117
+x = 3
+y = 2
+
+[[walls]]
+id = 118
+x = 4
+y = 2
+
+[[walls]]
+id = 119
+x = 5
+y = 2
+
+[[walls]]
+id = 120
+x = 14
+y = 2
+
+[[walls]]
+id = 121
+x = 15
+y = 2
+
+[[walls]]
+id = 122
+x = 16
+y = 2
+
+[[walls]]
+id = 123
+x = 17
+y = 2
+
+[[walls]]
+id = 124
+x = 18
+y = 2
+
+[[walls]]
+id = 125
+x = 19
+y = 2
+
+[[walls]]
+id = 126
+x = 0
+y = 3
+
+[[walls]]
+id = 127
+x = 19
+y = 3
+
+[[walls]]
+id = 128
+x = 0
+y = 4
+
+[[walls]]
+id = 129
+x = 19
+y = 4
+
+[[walls]]
+id = 130
+x = 0
+y = 5
+
+[[walls]]
+id = 131
+x = 19
+y = 5
+
+[[walls]]
+id = 132
+x = 0
+y = 6
+
+[[walls]]
+id = 133
+x = 19
+y = 6
+
+[[walls]]
+id = 134
+x = 0
+y = 7
+
+[[walls]]
+id = 135
+x = 19
+y = 7
+
+[[walls]]
+id = 136
+x = 0
+y = 8
+
+[[walls]]
+id = 137
+x = 19
+y = 8
+
+[[walls]]
+id = 138
+x = 0
+y = 9
+
+[[walls]]
+id = 139
+x = 19
+y = 9
+
+[[walls]]
+id = 140
+x = 0
+y = 10
+
+[[walls]]
+id = 141
+x = 19
+y = 10
+
+[[walls]]
+id = 142
+x = 0
+y = 11
+
+[[walls]]
+id = 143
+x = 19
+y = 11
+
+[[walls]]
+id = 144
+x = 0
+y = 12
+
+[[walls]]
+id = 145
+x = 19
+y = 12
+
+[[walls]]
+id = 146
+x = 0
+y = 13
+
+[[walls]]
+id = 147
+x = 19
+y = 13
+
+[[walls]]
+id = 148
+x = 0
+y = 14
+
+[[walls]]
+id = 149
+x = 1
+y = 14
+
+[[walls]]
+id = 150
+x = 2
+y = 14
+
+[[walls]]
+id = 151
+x = 3
+y = 14
+
+[[walls]]
+id = 152
+x = 4
+y = 14
+
+[[walls]]
+id = 153
+x = 5
+y = 14
+
+[[walls]]
+id = 154
+x = 6
+y = 14
+
+[[walls]]
+id = 155
+x = 7
+y = 14
+
+[[walls]]
+id = 156
+x = 8
+y = 14
+
+[[walls]]
+id = 157
+x = 9
+y = 14
+
+[[walls]]
+id = 158
+x = 10
+y = 14
+
+[[walls]]
+id = 159
+x = 11
+y = 14
+
+[[walls]]
+id = 160
+x = 12
+y = 14
+
+[[walls]]
+id = 161
+x = 13
+y = 14
+
+[[walls]]
+id = 162
+x = 14
+y = 14
+
+[[walls]]
+id = 163
+x = 15
+y = 14
+
+[[walls]]
+id = 164
+x = 16
+y = 14
+
+[[walls]]
+id = 165
+x = 17
+y = 14
+
+[[walls]]
+id = 166
+x = 18
+y = 14
+
+[[walls]]
+id = 167
+x = 19
+y = 14
