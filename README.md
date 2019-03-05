@@ -2,6 +2,13 @@
 
 A spiritual successor to the puzzle game [Replay 2: The Sequel](https://jayisgames.com/review/cgdc3-replay-2-the-sequel.php)
 
+## Dev
+Building on 1.33.0<br/>
+`rustup install stable`<br/>
+`rustup default stable`<br/>
+`cargo build`<br/>
+`cargo run --bin replay`<br/>
+
 ## High Level Design
 Turn-based gameplay<br/>
 Player character is followed by a _shadow_ character at some _n_ turns removed.<br/>
