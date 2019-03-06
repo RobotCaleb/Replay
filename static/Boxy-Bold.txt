@@ -1,0 +1,19 @@
+Public domain per: https://opengameart.org/content/boxy-bold-truetype-font
+
+Mirrored:
+This is a TrueType font file. The included image file is the image I used to hand-craft this font. I've chosen to license this as Public Domain because the previous two people who handled this work did the same. Any attribution should go to Clint Bellanger for the original work found here:
+
+http://opengameart.org/content/boxy-bold-font
+
+And the altered version by cemkalyoncu found here:
+
+http://opengameart.org/content/boxy-bold-font-split
+
+EDIT
+
+usr_share was kind enough to add lowercase letters, found here:
+
+http://opengameart.org/content/boxy-bold-font-0
+
+Attribution Instructions: 
+Not required, but you may optionally give credit to Clint Bellanger by listing his name with the other attribution/credits list of your project. Alternatively, you can link to this page or his home page: http://clintbellanger.net * NOTE * You can credit cemkalyoncu, william.thompsonj, and usr_share too if you're feeling generous.
