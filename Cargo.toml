@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Caleb Anderson <robotrising@gmail.com>"]
 edition = "2018"
 
+# [profile.dev]
+# debug = true
+
 [dependencies]
 toml = "0.4"
 serde = "1.0"

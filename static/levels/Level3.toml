@@ -1,92 +1,139 @@
+follow_distance = 4
+
 [[doors]]
 id = 187
-type = "DoorNorthSouth"
 x = 2
 y = 1
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 188
-type = "DoorNorthSouth"
 x = 4
 y = 3
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 189
-type = "DoorNorthSouth"
 x = 6
 y = 3
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 190
-type = "DoorNorthSouth"
 x = 9
 y = 3
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 191
-type = "DoorNorthSouth"
 x = 10
 y = 3
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 192
-type = "DoorEastWest"
 x = 17
 y = 3
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 193
-type = "DoorNorthSouth"
 x = 4
 y = 5
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 194
-type = "DoorNorthSouth"
 x = 6
 y = 5
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 195
-type = "DoorNorthSouth"
 x = 9
 y = 5
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 196
-type = "DoorNorthSouth"
 x = 4
 y = 9
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 197
-type = "DoorNorthSouth"
 x = 6
 y = 9
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 198
-type = "DoorNorthSouth"
 x = 14
 y = 10
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 199
-type = "DoorNorthSouth"
 x = 5
 y = 13
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 200
-type = "DoorNorthSouth"
 x = 9
 y = 13
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 201
-type = "DoorNorthSouth"
 x = 13
 y = 13
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [finish]
 id = 215
@@ -95,63 +142,93 @@ y = 3
 
 [[spikeballs]]
 id = 177
-type = "SpikeBallSouth"
 x = 17
 y = 1
+[spikeballs.dir]
+dir = "South"
+[spikeballs.clip]
+clip = "Block"
 
 [[spikeballs]]
 id = 178
-type = "SpikeBallEastIgnore"
 x = 7
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 179
-type = "SpikeBallEastIgnore"
 x = 8
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 180
-type = "SpikeBallSouthIgnore"
 x = 13
 y = 4
+[spikeballs.dir]
+dir = "South"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 181
-type = "SpikeBallEastIgnore"
 x = 10
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 182
-type = "SpikeBallWestIgnore"
 x = 11
 y = 5
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 183
-type = "SpikeBallEastIgnore"
 x = 9
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 184
-type = "SpikeBallWestIgnore"
 x = 10
 y = 9
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 185
-type = "SpikeBallEast"
 x = 12
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Block"
 
 [[spikeballs]]
 id = 186
-type = "SpikeBallEastIgnore"
 x = 1
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [start]
 id = 214

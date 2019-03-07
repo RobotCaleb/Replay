@@ -1,181 +1,270 @@
+follow_distance = 4
+
 [[doors]]
 id = 95
-type = "DoorNorthSouth"
 x = 15
 y = 0
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 96
-type = "DoorEastWest"
 x = 17
 y = 3
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 97
-type = "DoorEastWest"
 x = 7
 y = 7
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 98
-type = "DoorNorthSouth"
 x = 3
 y = 10
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 99
-type = "DoorEastWest"
 x = 2
 y = 11
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 100
-type = "DoorEastWest"
 x = 4
 y = 11
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 101
-type = "DoorNorthSouth"
 x = 1
 y = 12
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 102
-type = "DoorNorthSouth"
 x = 3
 y = 12
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
 
 [[doors]]
 id = 103
-type = "DoorEastWest"
 x = 0
 y = 13
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
 
 [finish]
 id = 112
 x = 0
 y = 14
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 74
-type = "SpikeBallEastIgnore"
 x = 0
 y = 0
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 75
-type = "SpikeBallWest"
 x = 12
 y = 0
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 76
-type = "SpikeBallWest"
 x = 17
 y = 0
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 77
-type = "SpikeBallNorthIgnore"
 x = 19
 y = 0
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 78
-type = "SpikeBallWest"
 x = 8
 y = 1
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 79
-type = "SpikeBallEastIgnore"
 x = 10
 y = 1
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 80
-type = "SpikeBallNorth"
 x = 17
 y = 1
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 81
-type = "SpikeBallEastIgnore"
 x = 4
 y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 82
-type = "SpikeBallEast"
 x = 5
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 83
-type = "SpikeBallEastIgnore"
 x = 4
 y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 84
-type = "SpikeBallNorth"
 x = 17
 y = 6
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 85
-type = "SpikeBallNorthIgnore"
 x = 7
 y = 8
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 86
-type = "SpikeBallNorthIgnore"
 x = 16
 y = 8
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 87
-type = "SpikeBallNorthIgnore"
 x = 9
 y = 9
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 88
-type = "SpikeBallNorth"
 x = 4
 y = 10
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 89
-type = "SpikeBallWest"
 x = 5
 y = 10
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 90
-type = "SpikeBallNorth"
 x = 8
 y = 10
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 91
-type = "SpikeBallNorth"
 x = 10
 y = 10
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 92
-type = "SpikeBallNorth"
 x = 19
 y = 12
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
 
-[[SpikeBall]]
+[[spikeballs]]
 id = 93
-type = "SpikeBallSouthIgnore"
 x = 17
 y = 14
+[spikeballs.dir]
+dir = "South"
+[spikeballs.clip]
+clip = "Clip"
 
 [start]
 id = 111

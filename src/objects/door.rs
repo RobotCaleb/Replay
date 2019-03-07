@@ -1,47 +1,79 @@
 extern crate quicksilver;
 
 use quicksilver::{
-    geom::Rectangle,
+    geom::{Rectangle, Transform},
     graphics::{Background::Col, Color},
-    lifecycle::{State, Window},
-    Result,
+    lifecycle::Window,
 };
 
-#[derive(Clone, Debug, Deserialize)]
+use crate::world::{DoorState, DoorType};
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Door {
     pub id: i32,
     pub x: i32,
     pub y: i32,
-    pub r#type: String,
+    pub r#type: DoorType,
+    pub state: DoorState,
 }
 
 impl Door {
-    pub fn draw_debug(&mut self, _window: &mut Window) -> Result<()> {
-        let (x, y) = (self.x, self.y);
-        _window.draw(
-            &Rectangle::new((x as u32 * 32 + 4, y as u32 * 32 + 4), (24, 24)),
-            Col(Color::BLACK),
-        );
-        Ok(())
-    }
-}
-
-impl State for Door {
-    fn new() -> Result<Door> {
-        Ok(Door {
-            id: 0,
-            x: 0,
-            y: 0,
-            r#type: "".to_string(),
-        })
+    #[allow(dead_code)]
+    pub fn new(id: i32, x: i32, y: i32, r#type: DoorType, state: DoorState) -> Door {
+        Door {
+            id: id,
+            x: x,
+            y: y,
+            r#type: r#type,
+            state: state,
+        }
     }
 
-    fn draw(&mut self, _window: &mut Window) -> Result<()> {
+    pub fn draw_debug(&mut self, _window: &mut Window) {
         let (x, y) = (self.x, self.y);
-        _window.draw(
-            &Rectangle::new((x as u32 * 32 + 4, y as u32 * 32 + 4), (24, 24)),
-            Col(Color::BLACK),
-        );
-        Ok(())
+        if self.state == DoorState::Open {
+            match self.r#type {
+                DoorType::NorthSouth => {
+                    _window.draw_ex(
+                        &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32 + 4), (8, 8)),
+                        Col(Color::BLACK),
+                        Transform::rotate(0),
+                        0,
+                    );
+                    _window.draw_ex(
+                        &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32 + 24), (8, 8)),
+                        Col(Color::BLACK),
+                        Transform::rotate(0),
+                        0,
+                    );
+                }
+                DoorType::EastWest => {
+                    _window.draw_ex(
+                        &Rectangle::new((x as u32 * 32 + 4, y as u32 * 32 + 12), (8, 8)),
+                        Col(Color::BLACK),
+                        Transform::rotate(0),
+                        0,
+                    );
+                    _window.draw_ex(
+                        &Rectangle::new((x as u32 * 32 + 24, y as u32 * 32 + 12), (8, 8)),
+                        Col(Color::BLACK),
+                        Transform::rotate(0),
+                        0,
+                    );
+                }
+            }
+        } else {
+            let tf = if self.r#type == DoorType::EastWest {
+                90
+            } else {
+                0
+            };
+            _window.draw_ex(
+                &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32 + 4), (8, 24)),
+                Col(Color::BLACK),
+                Transform::rotate(tf),
+                0,
+            );
+        }
     }
 }

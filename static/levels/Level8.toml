@@ -1,3 +1,5 @@
+follow_distance = 4
+
 [finish]
 id = 0
 x = 1
@@ -5,525 +7,786 @@ y = 1
 
 [[spikeballs]]
 id = 1
-type = "SpikeBallEastIgnore"
 x = 1
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 2
-type = "SpikeBallEastIgnore"
 x = 5
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 3
-type = "SpikeBallEastIgnore"
 x = 7
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 4
-type = "SpikeBallEastIgnore"
 x = 8
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 5
-type = "SpikeBallEastIgnore"
 x = 9
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 6
-type = "SpikeBallEastIgnore"
 x = 10
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 7
-type = "SpikeBallEastIgnore"
 x = 12
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 8
-type = "SpikeBallEastIgnore"
 x = 16
 y = 3
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 9
-type = "SpikeBallEastIgnore"
 x = 1
 y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 10
-type = "SpikeBallEastIgnore"
 x = 3
 y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 11
-type = "SpikeBallEastIgnore"
 x = 5
 y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 12
-type = "SpikeBallEastIgnore"
 x = 7
 y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 13
-type = "SpikeBallEastIgnore"
 x = 12
 y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 14
-type = "SpikeBallEastIgnore"
 x = 16
 y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 15
-type = "SpikeBallEastIgnore"
 x = 1
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 16
-type = "SpikeBallEastIgnore"
 x = 3
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 17
-type = "SpikeBallEastIgnore"
 x = 5
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 18
-type = "SpikeBallEastIgnore"
 x = 7
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 19
-type = "SpikeBallEastIgnore"
 x = 8
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 20
-type = "SpikeBallEastIgnore"
 x = 9
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 21
-type = "SpikeBallEastIgnore"
 x = 12
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 22
-type = "SpikeBallEastIgnore"
 x = 16
 y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 23
-type = "SpikeBallEastIgnore"
 x = 1
 y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 24
-type = "SpikeBallEastIgnore"
 x = 3
 y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 25
-type = "SpikeBallEastIgnore"
 x = 5
 y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 26
-type = "SpikeBallEastIgnore"
 x = 7
 y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 27
-type = "SpikeBallEastIgnore"
 x = 12
 y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 28
-type = "SpikeBallEastIgnore"
 x = 16
 y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 29
-type = "SpikeBallEastIgnore"
 x = 2
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 30
-type = "SpikeBallEastIgnore"
 x = 4
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 31
-type = "SpikeBallEastIgnore"
 x = 7
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 32
-type = "SpikeBallEastIgnore"
 x = 8
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 33
-type = "SpikeBallEastIgnore"
 x = 9
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 34
-type = "SpikeBallEastIgnore"
 x = 10
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 35
-type = "SpikeBallEastIgnore"
 x = 12
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 36
-type = "SpikeBallEastIgnore"
 x = 13
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 37
-type = "SpikeBallEastIgnore"
 x = 14
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 38
-type = "SpikeBallEastIgnore"
 x = 16
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 39
-type = "SpikeBallEastIgnore"
 x = 17
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 40
-type = "SpikeBallEastIgnore"
 x = 18
 y = 7
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 41
-type = "SpikeBallEastIgnore"
 x = 1
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 42
-type = "SpikeBallEastIgnore"
 x = 2
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 43
-type = "SpikeBallEastIgnore"
 x = 6
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 44
-type = "SpikeBallEastIgnore"
 x = 7
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 45
-type = "SpikeBallEastIgnore"
 x = 10
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 46
-type = "SpikeBallEastIgnore"
 x = 13
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 47
-type = "SpikeBallEastIgnore"
 x = 15
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 48
-type = "SpikeBallEastIgnore"
 x = 16
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 49
-type = "SpikeBallEastIgnore"
 x = 17
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 50
-type = "SpikeBallEastIgnore"
 x = 18
 y = 9
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 51
-type = "SpikeBallEastIgnore"
 x = 1
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 52
-type = "SpikeBallEastIgnore"
 x = 3
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 53
-type = "SpikeBallEastIgnore"
 x = 5
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 54
-type = "SpikeBallEastIgnore"
 x = 8
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 55
-type = "SpikeBallEastIgnore"
 x = 10
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 56
-type = "SpikeBallEastIgnore"
 x = 11
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 57
-type = "SpikeBallEastIgnore"
 x = 13
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 58
-type = "SpikeBallEastIgnore"
 x = 15
 y = 10
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 59
-type = "SpikeBallEastIgnore"
 x = 1
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 60
-type = "SpikeBallEastIgnore"
 x = 3
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 61
-type = "SpikeBallEastIgnore"
 x = 5
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 62
-type = "SpikeBallEastIgnore"
 x = 8
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 63
-type = "SpikeBallEastIgnore"
 x = 10
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 64
-type = "SpikeBallEastIgnore"
 x = 11
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 65
-type = "SpikeBallEastIgnore"
 x = 12
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 66
-type = "SpikeBallEastIgnore"
 x = 13
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 67
-type = "SpikeBallEastIgnore"
 x = 15
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 68
-type = "SpikeBallEastIgnore"
 x = 16
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 69
-type = "SpikeBallEastIgnore"
 x = 17
 y = 11
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 70
-type = "SpikeBallEastIgnore"
 x = 1
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 71
-type = "SpikeBallEastIgnore"
 x = 3
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 72
-type = "SpikeBallEastIgnore"
 x = 5
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 73
-type = "SpikeBallEastIgnore"
 x = 8
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 74
-type = "SpikeBallEastIgnore"
 x = 10
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 75
-type = "SpikeBallEastIgnore"
 x = 12
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 76
-type = "SpikeBallEastIgnore"
 x = 13
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 77
-type = "SpikeBallEastIgnore"
 x = 15
 y = 12
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 78
-type = "SpikeBallEastIgnore"
 x = 1
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 79
-type = "SpikeBallEastIgnore"
 x = 2
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 80
-type = "SpikeBallEastIgnore"
 x = 6
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 81
-type = "SpikeBallEastIgnore"
 x = 7
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 82
-type = "SpikeBallEastIgnore"
 x = 10
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 83
-type = "SpikeBallEastIgnore"
 x = 13
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 84
-type = "SpikeBallEastIgnore"
 x = 15
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 85
-type = "SpikeBallEastIgnore"
 x = 16
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 86
-type = "SpikeBallEastIgnore"
 x = 17
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [[spikeballs]]
 id = 87
-type = "SpikeBallEastIgnore"
 x = 18
 y = 13
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
 
 [start]
 id = 88
