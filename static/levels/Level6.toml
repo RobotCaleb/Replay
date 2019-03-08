@@ -1,3 +1,4 @@
+name="Level 6"
 follow_distance = 4
 
 [[doors]]
@@ -298,105 +299,105 @@ id = 165
 x = 19
 y = 12
 
-[[switch]]
+[[switches]]
 id = 148
 x = 5
 y = 0
 toggles = [ 141 ]
 
-[[switch]]
+[[switches]]
 id = 149
 x = 1
 y = 1
 toggles = [ 135 ]
 
-[[switch]]
+[[switches]]
 id = 150
 x = 3
 y = 1
 
 toggles = [ 134, 133 ]
 
-[[switch]]
+[[switches]]
 id = 151
 x = 7
 y = 1
 
 toggles = [ 134, 133 ]
 
-[[switch]]
+[[switches]]
 id = 152
 x = 1
 y = 8
 toggles = [ 135 ]
 
-[[switch]]
+[[switches]]
 id = 153
 x = 9
 y = 12
 toggles = [ 136 ]
 
-[[switch]]
+[[switches]]
 id = 154
 x = 10
 y = 12
 toggles = [ 142 ]
 
-[[switch]]
+[[switches]]
 id = 155
 x = 11
 y = 12
 toggles = [ 137 ]
 
-[[switch]]
+[[switches]]
 id = 156
 x = 12
 y = 12
 toggles = [ 143 ]
 
-[[switch]]
+[[switches]]
 id = 157
 x = 13
 y = 12
 toggles = [ 138 ]
 
-[[switch]]
+[[switches]]
 id = 158
 x = 14
 y = 12
 toggles = [ 144 ]
 
-[[switch]]
+[[switches]]
 id = 159
 x = 15
 y = 12
 toggles = [ 139 ]
 
-[[switch]]
+[[switches]]
 id = 160
 x = 16
 y = 12
 toggles = [ 145 ]
 
-[[switch]]
+[[switches]]
 id = 161
 x = 17
 y = 12
 toggles = [ 140 ]
 
-[[switch]]
+[[switches]]
 id = 162
 x = 18
 y = 12
 toggles = [ 146 ]
 
-[[switch]]
+[[switches]]
 id = 163
 x = 2
 y = 14
 toggles = [ 147 ]
 
-[[switch]]
+[[switches]]
 id = 164
 x = 4
 y = 14
