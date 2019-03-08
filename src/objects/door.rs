@@ -35,7 +35,7 @@ impl Door {
             match self.r#type {
                 DoorType::NorthSouth => {
                     _window.draw_ex(
-                        &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32 + 4), (8, 8)),
+                        &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32), (8, 8)),
                         Col(Color::BLACK),
                         Transform::rotate(0),
                         0,
@@ -49,7 +49,7 @@ impl Door {
                 }
                 DoorType::EastWest => {
                     _window.draw_ex(
-                        &Rectangle::new((x as u32 * 32 + 4, y as u32 * 32 + 12), (8, 8)),
+                        &Rectangle::new((x as u32 * 32, y as u32 * 32 + 12), (8, 8)),
                         Col(Color::BLACK),
                         Transform::rotate(0),
                         0,
@@ -69,7 +69,7 @@ impl Door {
                 0
             };
             _window.draw_ex(
-                &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32 + 4), (8, 24)),
+                &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32), (8, 32)),
                 Col(Color::BLACK),
                 Transform::rotate(tf),
                 0,

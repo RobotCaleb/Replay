@@ -1,9 +1,13 @@
 use crate::objects::*;
 use crate::world::{ClipType, Direction, DoorState, Entity, Input};
+use futures::Future;
+use quicksilver::{lifecycle::Asset, load_file};
 use std::collections::{HashMap, VecDeque};
+use std::path::Path;
 
 #[derive(Clone, Debug)]
 pub struct Level {
+    pub name: String,
     pub doors: Vec<Door>,
     pub spikeballs: Vec<Spikeball>,
     pub switches: Vec<Switch>,
@@ -20,6 +24,7 @@ pub struct Level {
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct ConfigLevel {
+    pub name: String,
     pub doors: Option<Vec<Door>>,
     pub spikeballs: Option<Vec<Spikeball>>,
     pub switches: Option<Vec<Switch>>,
@@ -33,6 +38,7 @@ pub struct ConfigLevel {
 impl Level {
     pub fn new() -> Level {
         Level {
+            name: "".to_string(),
             doors: Vec::new(),
             spikeballs: Vec::new(),
             switches: Vec::new(),
@@ -46,6 +52,19 @@ impl Level {
             shadow_moves: VecDeque::new(),
             follow_distance: 4,
         }
+    }
+
+    pub fn load(path: impl AsRef<Path> + 'static) -> Asset<String> {
+        Asset::new(
+            load_file(path).and_then(|contents| {
+                Ok(String::from_utf8(contents).expect("The file must be UTF-8"))
+            }),
+        )
+    }
+
+    pub fn from_utf8(data: &String) -> Level {
+        let cfg: ConfigLevel = toml::from_str(data).unwrap();
+        Level::from_config_level(&cfg)
     }
 
     pub fn from_config_level(config_level: &ConfigLevel) -> Level {
@@ -99,7 +118,7 @@ impl Level {
     }
 
     #[allow(dead_code)]
-    pub fn get_entity_pos_by_id(&mut self, id: i32) -> Option<(i32, i32)> {
+    pub fn get_entity_pos_by_id(&self, id: i32) -> Option<(i32, i32)> {
         for n in &self.doors {
             if n.id == id {
                 return Some((n.x, n.y));
@@ -342,12 +361,38 @@ impl Level {
         }
     }
 
+    fn is_dead(&self) -> bool {
+        let pp = &mut self.get_entity_pos_by_id(self.player.id);
+        let sp = &mut self.get_entity_pos_by_id(self.shadow.id);
+        for spike in &self.spikeballs {
+            if Some((spike.x, spike.y)) == *pp || Some((spike.x, spike.y)) == *sp {
+                return true;
+            }
+        }
+        for door in &self.doors {
+            if door.state == DoorState::Closed
+                && (Some((door.x, door.y)) == *pp || Some((door.x, door.y)) == *sp)
+            {
+                return true;
+            }
+        }
+        false
+    }
+
     fn can_move(&self, id: i32, new_pos: (i32, i32)) -> bool {
         let a = self.get_entity_by_id(id);
         let bid = self.get_entity_id_by_pos((new_pos.0, new_pos.1));
         let b = self.get_entity_by_id(bid.unwrap_or(-1));
 
+        // can't move out of bounds
         if a.is_none() || new_pos.0 < 0 || new_pos.0 >= 20 || new_pos.1 < 0 || new_pos.1 >= 15 {
+            return false;
+        }
+
+        // nothing is allowed to move if
+        // there is a spikeball on player or on shadow
+        // or if player or shadow is on a closed door
+        if self.is_dead() {
             return false;
         }
 
@@ -391,6 +436,10 @@ impl Level {
     pub fn process(level: &Level, input: &Input) -> Option<Level> {
         let mut lvl = level.clone();
 
+        if lvl.is_dead() {
+            return None;
+        }
+
         // first the player moves, triggering any teleports or switches
         // then the spikeballs move, triggering any teleports or switches
         // then the shadow moves, triggering any teleports or switches
@@ -405,6 +454,9 @@ impl Level {
                         lvl.shadow_moves.push_front(new_pos);
                         lvl.process_switches();
                         lvl.process_teleports();
+                        if lvl.is_dead() {
+                            return Some(lvl);
+                        }
                     }
 
                     // spikeball move
@@ -442,6 +494,9 @@ impl Level {
                         }
                         lvl.process_switches();
                         lvl.process_teleports();
+                        if lvl.is_dead() {
+                            return Some(lvl);
+                        }
                     }
 
                     // shadow move
@@ -450,6 +505,9 @@ impl Level {
                             let sm = lvl.shadow_moves.pop_back().unwrap();
                             lvl.set_entity_pos_by_id(lvl.shadow.id, sm);
                             lvl.process_switches();
+                            if lvl.is_dead() {
+                                return Some(lvl);
+                            }
                         }
                     }
 

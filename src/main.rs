@@ -2,18 +2,19 @@ extern crate quicksilver;
 extern crate toml;
 #[macro_use]
 extern crate serde_derive;
+#[cfg(target_arch = "wasm32")]
+#[macro_use]
+extern crate stdweb;
 
 mod objects;
 mod world;
 
 use crate::world::game::Game;
-// use objects::*;
 use quicksilver::{
     geom::Vector,
+    graphics::ResizeStrategy,
     lifecycle::{run, Settings},
 };
-
-// use crate::world::{ClipType, DoorType, Direction};
 
 fn main() {
     // let _d = Door::new(0, 0, 0, DoorType::EastWest);
@@ -35,5 +36,12 @@ fn main() {
     // println!("Player:\n{}", toml::to_string(&_p).unwrap());
     // println!("Shadow:\n{}", toml::to_string(&_h).unwrap());
 
-    run::<Game>("Game", Vector::new(640, 480), Settings::default());
+    #[cfg(target_arch = "wasm32")]
+    {
+        console!(log, "in main");
+    }
+
+    let mut settings = Settings::default();
+    settings.resize = ResizeStrategy::Fill;
+    run::<Game>("Game", Vector::new(800, 600), settings);
 }

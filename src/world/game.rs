@@ -1,45 +1,71 @@
-use crate::world::{ConfigLevel, Input, Level};
+#[allow(unused_imports)]
+use crate::world::{misc::log, Input, Level};
 
 use quicksilver::{
     geom::Line,
     graphics::{Background::Col, Color},
     input::{ButtonState, Key},
-    lifecycle::{State, Window},
+    lifecycle::{Asset, State, Window},
     Result,
 };
-use std::fs;
 
 pub struct Game {
     pub levels: Vec<Vec<Level>>,
     pub cur_level: usize,
     pub sub_level: usize,
     pub draw_debug: bool,
+    level_sources: Vec<(Asset<String>, bool)>,
 }
 
 impl State for Game {
     fn new() -> Result<Game> {
-        let mut levels = Vec::new();
+        let mut level_sources = Vec::new();
         for lvl in 1..10 {
-            println!("Reading levels/Level{}.toml", lvl);
-            let level_string = fs::read_to_string(format!("levels/Level{}.toml", lvl)).expect(
-                &format!("Something went wrong reading levels/Level{}.toml", lvl),
-            );
-
-            let config_level: ConfigLevel = toml::from_str(&level_string).unwrap();
-            levels.push(vec![Level::from_config_level(&config_level)]);
-            // uncomment to dump level data as it's loaded
-            //println!("Level {} \n{:#?}\nLevel {}\n", lvl, levels.last(), lvl);
+            level_sources.push((Level::load(format!("levels/Level{}.toml", lvl)), false));
         }
         let game = Game {
-            levels: levels.clone(),
+            levels: Vec::new(),
             cur_level: 0,
             sub_level: 0,
             draw_debug: true,
+            level_sources: level_sources,
         };
         Ok(game)
     }
 
     fn update(&mut self, _window: &mut Window) -> Result<()> {
+        if self.levels.len() == 0 {
+            let mut loaded_num = 0;
+            for (ls, loaded) in &mut self.level_sources {
+                if *loaded == false {
+                    if ls
+                        .execute(|_| {
+                            *loaded = true;
+                            Ok(())
+                        })
+                        .is_err()
+                    {
+                        panic!("something broke");
+                    }
+                }
+                if *loaded == true {
+                    loaded_num += 1;
+                }
+            }
+            if loaded_num == self.level_sources.len() {
+                for (ls, _) in &mut self.level_sources {
+                    let mut level: Vec<Level> = Vec::new();
+                    ls.execute(|lvl| {
+                        level = vec![Level::from_utf8(lvl)];
+                        Ok(())
+                    })
+                    .expect("Something happened converting from string to level");
+                    self.levels.push(level);
+                }
+            }
+            return Ok(());
+        }
+
         // only one type of input per frame, sorry
         let mut input = None;
         if _window.keyboard()[Key::Right] == ButtonState::Pressed {
@@ -120,6 +146,10 @@ impl State for Game {
         // That seems like it should do the right thing with the updated graphics
         window.clear(Color::WHITE)?;
 
+        if self.levels.len() == 0 {
+            return Ok(());
+        }
+
         let mut level = self.levels[self.cur_level].last().unwrap().clone();
 
         if self.draw_debug {
@@ -148,7 +178,7 @@ impl State for Game {
                                 (ox as u32 * 32 + 16, oy as u32 * 32 + 16),
                             )
                             .with_thickness(1.0),
-                            Col(Color::MAGENTA),
+                            Col(Color::RED),
                         );
                     }
                 }
