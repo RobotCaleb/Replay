@@ -12,7 +12,6 @@ mod world;
 use crate::world::game::Game;
 use quicksilver::{
     geom::Vector,
-    graphics::ResizeStrategy,
     lifecycle::{run, Settings},
 };
 
@@ -41,7 +40,5 @@ fn main() {
         console!(log, "in main");
     }
 
-    let mut settings = Settings::default();
-    settings.resize = ResizeStrategy::Fill;
-    run::<Game>("Game", Vector::new(800, 600), settings);
+    run::<Game>("Game", Vector::new(640, 480), Settings::default());
 }
