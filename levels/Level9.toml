@@ -1,0 +1,692 @@
+name="Level 9"
+follow_distance = 4
+
+[[doors]]
+id = 95
+x = 15
+y = 0
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 96
+x = 17
+y = 3
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 97
+x = 7
+y = 7
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 98
+x = 3
+y = 10
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 99
+x = 2
+y = 11
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 100
+x = 4
+y = 11
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 101
+x = 1
+y = 12
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 102
+x = 3
+y = 12
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 103
+x = 0
+y = 13
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
+
+[finish]
+id = 112
+x = 0
+y = 14
+
+[[spikeballs]]
+id = 74
+x = 0
+y = 0
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 75
+x = 12
+y = 0
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 76
+x = 17
+y = 0
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 77
+x = 19
+y = 0
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 78
+x = 8
+y = 1
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 79
+x = 10
+y = 1
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 80
+x = 17
+y = 1
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 81
+x = 4
+y = 4
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 82
+x = 5
+y = 5
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 83
+x = 4
+y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 84
+x = 17
+y = 6
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 85
+x = 7
+y = 8
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 86
+x = 16
+y = 8
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 87
+x = 9
+y = 9
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 88
+x = 4
+y = 10
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 89
+x = 5
+y = 10
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 90
+x = 8
+y = 10
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 91
+x = 10
+y = 10
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 92
+x = 19
+y = 12
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Block"
+
+[[spikeballs]]
+id = 93
+x = 17
+y = 14
+[spikeballs.dir]
+dir = "South"
+[spikeballs.clip]
+clip = "Clip"
+
+[start]
+id = 111
+x = 2
+y = 12
+
+[[switches]]
+id = 104
+x = 14
+y = 0
+toggles = [ -1 ]
+
+[[switches]]
+id = 105
+x = 19
+y = 2
+toggles = [ 102 ]
+
+[[switches]]
+id = 106
+x = 19
+y = 3
+toggles = [ 102 ]
+
+[[switches]]
+id = 107
+x = 17
+y = 4
+toggles = [ -1 ]
+
+[[switches]]
+id = 108
+x = 5
+y = 8
+toggles = [ -1 ]
+
+[[switches]]
+id = 109
+x = 6
+y = 9
+toggles = [ -1 ]
+
+[[switches]]
+id = 110
+x = 19
+y = 10
+toggles = [ -1 ]
+
+[[teleports]]
+id = 94
+tx = 0
+ty = 0
+x = 15
+y = 2
+
+[[walls]]
+id = 0
+x = 9
+y = 0
+
+[[walls]]
+id = 1
+x = 13
+y = 0
+
+[[walls]]
+id = 2
+x = 18
+y = 0
+
+[[walls]]
+id = 3
+x = 1
+y = 1
+
+[[walls]]
+id = 4
+x = 9
+y = 1
+
+[[walls]]
+id = 5
+x = 13
+y = 1
+
+[[walls]]
+id = 6
+x = 14
+y = 1
+
+[[walls]]
+id = 7
+x = 15
+y = 1
+
+[[walls]]
+id = 8
+x = 16
+y = 1
+
+[[walls]]
+id = 9
+x = 18
+y = 1
+
+[[walls]]
+id = 10
+x = 2
+y = 2
+
+[[walls]]
+id = 11
+x = 3
+y = 2
+
+[[walls]]
+id = 12
+x = 4
+y = 2
+
+[[walls]]
+id = 13
+x = 16
+y = 2
+
+[[walls]]
+id = 14
+x = 18
+y = 2
+
+[[walls]]
+id = 15
+x = 5
+y = 3
+
+[[walls]]
+id = 16
+x = 6
+y = 3
+
+[[walls]]
+id = 17
+x = 11
+y = 3
+
+[[walls]]
+id = 18
+x = 12
+y = 3
+
+[[walls]]
+id = 19
+x = 13
+y = 3
+
+[[walls]]
+id = 20
+x = 14
+y = 3
+
+[[walls]]
+id = 21
+x = 16
+y = 3
+
+[[walls]]
+id = 22
+x = 18
+y = 3
+
+[[walls]]
+id = 23
+x = 7
+y = 4
+
+[[walls]]
+id = 24
+x = 10
+y = 4
+
+[[walls]]
+id = 25
+x = 16
+y = 4
+
+[[walls]]
+id = 26
+x = 18
+y = 4
+
+[[walls]]
+id = 27
+x = 6
+y = 5
+
+[[walls]]
+id = 28
+x = 9
+y = 5
+
+[[walls]]
+id = 29
+x = 16
+y = 5
+
+[[walls]]
+id = 30
+x = 17
+y = 5
+
+[[walls]]
+id = 31
+x = 18
+y = 5
+
+[[walls]]
+id = 32
+x = 5
+y = 6
+
+[[walls]]
+id = 33
+x = 8
+y = 6
+
+[[walls]]
+id = 34
+x = 18
+y = 6
+
+[[walls]]
+id = 35
+x = 19
+y = 6
+
+[[walls]]
+id = 36
+x = 4
+y = 7
+
+[[walls]]
+id = 37
+x = 10
+y = 7
+
+[[walls]]
+id = 38
+x = 18
+y = 7
+
+[[walls]]
+id = 39
+x = 19
+y = 7
+
+[[walls]]
+id = 40
+x = 4
+y = 8
+
+[[walls]]
+id = 41
+x = 6
+y = 8
+
+[[walls]]
+id = 42
+x = 9
+y = 8
+
+[[walls]]
+id = 43
+x = 11
+y = 8
+
+[[walls]]
+id = 44
+x = 18
+y = 8
+
+[[walls]]
+id = 45
+x = 3
+y = 9
+
+[[walls]]
+id = 46
+x = 5
+y = 9
+
+[[walls]]
+id = 47
+x = 8
+y = 9
+
+[[walls]]
+id = 48
+x = 11
+y = 9
+
+[[walls]]
+id = 49
+x = 16
+y = 9
+
+[[walls]]
+id = 50
+x = 17
+y = 9
+
+[[walls]]
+id = 51
+x = 18
+y = 9
+
+[[walls]]
+id = 52
+x = 6
+y = 10
+
+[[walls]]
+id = 53
+x = 7
+y = 10
+
+[[walls]]
+id = 54
+x = 12
+y = 10
+
+[[walls]]
+id = 55
+x = 18
+y = 10
+
+[[walls]]
+id = 56
+x = 0
+y = 11
+
+[[walls]]
+id = 57
+x = 1
+y = 11
+
+[[walls]]
+id = 58
+x = 3
+y = 11
+
+[[walls]]
+id = 59
+x = 5
+y = 11
+
+[[walls]]
+id = 60
+x = 12
+y = 11
+
+[[walls]]
+id = 61
+x = 18
+y = 11
+
+[[walls]]
+id = 62
+x = 12
+y = 12
+
+[[walls]]
+id = 63
+x = 18
+y = 12
+
+[[walls]]
+id = 64
+x = 1
+y = 13
+
+[[walls]]
+id = 65
+x = 2
+y = 13
+
+[[walls]]
+id = 66
+x = 3
+y = 13
+
+[[walls]]
+id = 67
+x = 13
+y = 13
+
+[[walls]]
+id = 68
+x = 18
+y = 13
+
+[[walls]]
+id = 69
+x = 1
+y = 14
+
+[[walls]]
+id = 70
+x = 2
+y = 14
+
+[[walls]]
+id = 71
+x = 3
+y = 14
+
+[[walls]]
+id = 72
+x = 18
+y = 14
+
+[[walls]]
+id = 73
+x = 19
+y = 14

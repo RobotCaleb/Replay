@@ -1,0 +1,941 @@
+name="Level 2"
+follow_distance = 4
+
+[[doors]]
+id = 151
+x = 9
+y = 1
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 152
+x = 10
+y = 4
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 153
+x = 16
+y = 5
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 154
+x = 2
+y = 7
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 155
+x = 14
+y = 9
+[doors.type]
+type = "EastWest"
+[doors.state]
+state = "Closed"
+
+[[doors]]
+id = 156
+x = 17
+y = 13
+[doors.type]
+type = "NorthSouth"
+[doors.state]
+state = "Closed"
+
+[finish]
+id = 175
+x = 1
+y = 6
+
+[[spikeballs]]
+id = 168
+x = 2
+y = 1
+[spikeballs.dir]
+dir = "South"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 169
+x = 3
+y = 5
+[spikeballs.dir]
+dir = "North"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 170
+x = 7
+y = 6
+[spikeballs.dir]
+dir = "East"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 171
+x = 6
+y = 9
+[spikeballs.dir]
+dir = "South"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 172
+x = 11
+y = 11
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Clip"
+
+[[spikeballs]]
+id = 173
+x = 13
+y = 12
+[spikeballs.dir]
+dir = "West"
+[spikeballs.clip]
+clip = "Clip"
+
+[start]
+id = 174
+x = 1
+y = 0
+
+[[switches]]
+id = 157
+x = 7
+y = 2
+toggles = [ 151 ]
+
+[[switches]]
+id = 158
+x = 12
+y = 2
+toggles = [ 151 ]
+
+[[switches]]
+id = 159
+x = 11
+y = 4
+toggles = [ 152 ]
+
+[[switches]]
+id = 160
+x = 14
+y = 5
+toggles = [ 153, 155 ]
+
+[[switches]]
+id = 161
+x = 16
+y = 6
+toggles = [ 153 ]
+
+[[switches]]
+id = 162
+x = 1
+y = 7
+toggles = [ 154 ]
+
+[[switches]]
+id = 163
+x = 9
+y = 7
+toggles = [ 152 ]
+
+[[switches]]
+id = 164
+x = 2
+y = 9
+toggles = [ 154 ]
+
+[[switches]]
+id = 165
+x = 14
+y = 10
+toggles = [ 155 ]
+
+[[switches]]
+id = 166
+x = 16
+y = 11
+toggles = [ 156 ]
+
+[[switches]]
+id = 167
+x = 18
+y = 11
+toggles = [ 156 ]
+
+[[walls]]
+id = 0
+x = 0
+y = 0
+
+[[walls]]
+id = 1
+x = 2
+y = 0
+
+[[walls]]
+id = 2
+x = 3
+y = 0
+
+[[walls]]
+id = 3
+x = 4
+y = 0
+
+[[walls]]
+id = 4
+x = 5
+y = 0
+
+[[walls]]
+id = 5
+x = 6
+y = 0
+
+[[walls]]
+id = 6
+x = 7
+y = 0
+
+[[walls]]
+id = 7
+x = 8
+y = 0
+
+[[walls]]
+id = 8
+x = 9
+y = 0
+
+[[walls]]
+id = 9
+x = 10
+y = 0
+
+[[walls]]
+id = 10
+x = 11
+y = 0
+
+[[walls]]
+id = 11
+x = 12
+y = 0
+
+[[walls]]
+id = 12
+x = 13
+y = 0
+
+[[walls]]
+id = 13
+x = 14
+y = 0
+
+[[walls]]
+id = 14
+x = 15
+y = 0
+
+[[walls]]
+id = 15
+x = 16
+y = 0
+
+[[walls]]
+id = 16
+x = 17
+y = 0
+
+[[walls]]
+id = 17
+x = 18
+y = 0
+
+[[walls]]
+id = 18
+x = 19
+y = 0
+
+[[walls]]
+id = 19
+x = 0
+y = 1
+
+[[walls]]
+id = 20
+x = 19
+y = 1
+
+[[walls]]
+id = 21
+x = 0
+y = 2
+
+[[walls]]
+id = 22
+x = 4
+y = 2
+
+[[walls]]
+id = 23
+x = 5
+y = 2
+
+[[walls]]
+id = 24
+x = 6
+y = 2
+
+[[walls]]
+id = 25
+x = 8
+y = 2
+
+[[walls]]
+id = 26
+x = 9
+y = 2
+
+[[walls]]
+id = 27
+x = 11
+y = 2
+
+[[walls]]
+id = 28
+x = 15
+y = 2
+
+[[walls]]
+id = 29
+x = 16
+y = 2
+
+[[walls]]
+id = 30
+x = 17
+y = 2
+
+[[walls]]
+id = 31
+x = 19
+y = 2
+
+[[walls]]
+id = 32
+x = 0
+y = 3
+
+[[walls]]
+id = 33
+x = 4
+y = 3
+
+[[walls]]
+id = 34
+x = 5
+y = 3
+
+[[walls]]
+id = 35
+x = 6
+y = 3
+
+[[walls]]
+id = 36
+x = 7
+y = 3
+
+[[walls]]
+id = 37
+x = 8
+y = 3
+
+[[walls]]
+id = 38
+x = 9
+y = 3
+
+[[walls]]
+id = 39
+x = 10
+y = 3
+
+[[walls]]
+id = 40
+x = 11
+y = 3
+
+[[walls]]
+id = 41
+x = 12
+y = 3
+
+[[walls]]
+id = 42
+x = 13
+y = 3
+
+[[walls]]
+id = 43
+x = 14
+y = 3
+
+[[walls]]
+id = 44
+x = 15
+y = 3
+
+[[walls]]
+id = 45
+x = 16
+y = 3
+
+[[walls]]
+id = 46
+x = 17
+y = 3
+
+[[walls]]
+id = 47
+x = 19
+y = 3
+
+[[walls]]
+id = 48
+x = 0
+y = 4
+
+[[walls]]
+id = 49
+x = 4
+y = 4
+
+[[walls]]
+id = 50
+x = 13
+y = 4
+
+[[walls]]
+id = 51
+x = 17
+y = 4
+
+[[walls]]
+id = 52
+x = 19
+y = 4
+
+[[walls]]
+id = 53
+x = 0
+y = 5
+
+[[walls]]
+id = 54
+x = 1
+y = 5
+
+[[walls]]
+id = 55
+x = 2
+y = 5
+
+[[walls]]
+id = 56
+x = 4
+y = 5
+
+[[walls]]
+id = 57
+x = 6
+y = 5
+
+[[walls]]
+id = 58
+x = 7
+y = 5
+
+[[walls]]
+id = 59
+x = 8
+y = 5
+
+[[walls]]
+id = 60
+x = 10
+y = 5
+
+[[walls]]
+id = 61
+x = 13
+y = 5
+
+[[walls]]
+id = 62
+x = 15
+y = 5
+
+[[walls]]
+id = 63
+x = 17
+y = 5
+
+[[walls]]
+id = 64
+x = 19
+y = 5
+
+[[walls]]
+id = 65
+x = 0
+y = 6
+
+[[walls]]
+id = 66
+x = 2
+y = 6
+
+[[walls]]
+id = 67
+x = 3
+y = 6
+
+[[walls]]
+id = 68
+x = 4
+y = 6
+
+[[walls]]
+id = 69
+x = 8
+y = 6
+
+[[walls]]
+id = 70
+x = 10
+y = 6
+
+[[walls]]
+id = 71
+x = 13
+y = 6
+
+[[walls]]
+id = 72
+x = 15
+y = 6
+
+[[walls]]
+id = 73
+x = 17
+y = 6
+
+[[walls]]
+id = 74
+x = 19
+y = 6
+
+[[walls]]
+id = 75
+x = 0
+y = 7
+
+[[walls]]
+id = 76
+x = 4
+y = 7
+
+[[walls]]
+id = 77
+x = 8
+y = 7
+
+[[walls]]
+id = 78
+x = 10
+y = 7
+
+[[walls]]
+id = 79
+x = 13
+y = 7
+
+[[walls]]
+id = 80
+x = 15
+y = 7
+
+[[walls]]
+id = 81
+x = 17
+y = 7
+
+[[walls]]
+id = 82
+x = 19
+y = 7
+
+[[walls]]
+id = 83
+x = 0
+y = 8
+
+[[walls]]
+id = 84
+x = 1
+y = 8
+
+[[walls]]
+id = 85
+x = 2
+y = 8
+
+[[walls]]
+id = 86
+x = 4
+y = 8
+
+[[walls]]
+id = 87
+x = 5
+y = 8
+
+[[walls]]
+id = 88
+x = 6
+y = 8
+
+[[walls]]
+id = 89
+x = 8
+y = 8
+
+[[walls]]
+id = 90
+x = 9
+y = 8
+
+[[walls]]
+id = 91
+x = 10
+y = 8
+
+[[walls]]
+id = 92
+x = 13
+y = 8
+
+[[walls]]
+id = 93
+x = 15
+y = 8
+
+[[walls]]
+id = 94
+x = 17
+y = 8
+
+[[walls]]
+id = 95
+x = 19
+y = 8
+
+[[walls]]
+id = 96
+x = 0
+y = 9
+
+[[walls]]
+id = 97
+x = 4
+y = 9
+
+[[walls]]
+id = 98
+x = 9
+y = 9
+
+[[walls]]
+id = 99
+x = 10
+y = 9
+
+[[walls]]
+id = 100
+x = 13
+y = 9
+
+[[walls]]
+id = 101
+x = 15
+y = 9
+
+[[walls]]
+id = 102
+x = 17
+y = 9
+
+[[walls]]
+id = 103
+x = 19
+y = 9
+
+[[walls]]
+id = 104
+x = 0
+y = 10
+
+[[walls]]
+id = 105
+x = 1
+y = 10
+
+[[walls]]
+id = 106
+x = 2
+y = 10
+
+[[walls]]
+id = 107
+x = 4
+y = 10
+
+[[walls]]
+id = 108
+x = 9
+y = 10
+
+[[walls]]
+id = 109
+x = 13
+y = 10
+
+[[walls]]
+id = 110
+x = 15
+y = 10
+
+[[walls]]
+id = 111
+x = 17
+y = 10
+
+[[walls]]
+id = 112
+x = 19
+y = 10
+
+[[walls]]
+id = 113
+x = 0
+y = 11
+
+[[walls]]
+id = 114
+x = 4
+y = 11
+
+[[walls]]
+id = 115
+x = 9
+y = 11
+
+[[walls]]
+id = 116
+x = 15
+y = 11
+
+[[walls]]
+id = 117
+x = 17
+y = 11
+
+[[walls]]
+id = 118
+x = 19
+y = 11
+
+[[walls]]
+id = 119
+x = 0
+y = 12
+
+[[walls]]
+id = 120
+x = 2
+y = 12
+
+[[walls]]
+id = 121
+x = 3
+y = 12
+
+[[walls]]
+id = 122
+x = 4
+y = 12
+
+[[walls]]
+id = 123
+x = 9
+y = 12
+
+[[walls]]
+id = 124
+x = 15
+y = 12
+
+[[walls]]
+id = 125
+x = 17
+y = 12
+
+[[walls]]
+id = 126
+x = 19
+y = 12
+
+[[walls]]
+id = 127
+x = 0
+y = 13
+
+[[walls]]
+id = 128
+x = 9
+y = 13
+
+[[walls]]
+id = 129
+x = 15
+y = 13
+
+[[walls]]
+id = 130
+x = 19
+y = 13
+
+[[walls]]
+id = 131
+x = 0
+y = 14
+
+[[walls]]
+id = 132
+x = 1
+y = 14
+
+[[walls]]
+id = 133
+x = 2
+y = 14
+
+[[walls]]
+id = 134
+x = 3
+y = 14
+
+[[walls]]
+id = 135
+x = 4
+y = 14
+
+[[walls]]
+id = 136
+x = 5
+y = 14
+
+[[walls]]
+id = 137
+x = 6
+y = 14
+
+[[walls]]
+id = 138
+x = 7
+y = 14
+
+[[walls]]
+id = 139
+x = 8
+y = 14
+
+[[walls]]
+id = 140
+x = 9
+y = 14
+
+[[walls]]
+id = 141
+x = 10
+y = 14
+
+[[walls]]
+id = 142
+x = 11
+y = 14
+
+[[walls]]
+id = 143
+x = 12
+y = 14
+
+[[walls]]
+id = 144
+x = 13
+y = 14
+
+[[walls]]
+id = 145
+x = 14
+y = 14
+
+[[walls]]
+id = 146
+x = 15
+y = 14
+
+[[walls]]
+id = 147
+x = 16
+y = 14
+
+[[walls]]
+id = 148
+x = 17
+y = 14
+
+[[walls]]
+id = 149
+x = 18
+y = 14
+
+[[walls]]
+id = 150
+x = 19
+y = 14
