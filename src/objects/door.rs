@@ -29,18 +29,18 @@ impl Door {
         }
     }
 
-    pub fn draw_debug(&mut self, _window: &mut Window) {
+    pub fn draw_debug(&mut self, window: &mut Window) {
         let (x, y) = (self.x, self.y);
         if self.state == DoorState::Open {
             match self.r#type {
                 DoorType::NorthSouth => {
-                    _window.draw_ex(
+                    window.draw_ex(
                         &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32), (8, 8)),
                         Col(Color::BLACK),
                         Transform::rotate(0),
                         0,
                     );
-                    _window.draw_ex(
+                    window.draw_ex(
                         &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32 + 24), (8, 8)),
                         Col(Color::BLACK),
                         Transform::rotate(0),
@@ -48,13 +48,13 @@ impl Door {
                     );
                 }
                 DoorType::EastWest => {
-                    _window.draw_ex(
+                    window.draw_ex(
                         &Rectangle::new((x as u32 * 32, y as u32 * 32 + 12), (8, 8)),
                         Col(Color::BLACK),
                         Transform::rotate(0),
                         0,
                     );
-                    _window.draw_ex(
+                    window.draw_ex(
                         &Rectangle::new((x as u32 * 32 + 24, y as u32 * 32 + 12), (8, 8)),
                         Col(Color::BLACK),
                         Transform::rotate(0),
@@ -68,7 +68,7 @@ impl Door {
             } else {
                 0
             };
-            _window.draw_ex(
+            window.draw_ex(
                 &Rectangle::new((x as u32 * 32 + 12, y as u32 * 32), (8, 32)),
                 Col(Color::BLACK),
                 Transform::rotate(tf),

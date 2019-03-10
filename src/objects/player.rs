@@ -19,9 +19,9 @@ impl Player {
         Player { id: id, x: x, y: y }
     }
 
-    pub fn draw_debug(&mut self, _window: &mut Window) {
+    pub fn draw_debug(&mut self, window: &mut Window) {
         let (x, y) = (self.x, self.y);
-        _window.draw(
+        window.draw(
             &Rectangle::new((x as u32 * 32 + 8, y as u32 * 32 + 4), (16, 24)),
             Col(Color::CYAN),
         );

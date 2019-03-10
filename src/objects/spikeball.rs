@@ -29,15 +29,15 @@ impl Spikeball {
         }
     }
 
-    pub fn draw_debug(&mut self, _window: &mut Window) {
+    pub fn draw_debug(&mut self, window: &mut Window) {
         let (x, y) = (self.x, self.y);
-        _window.draw_ex(
+        window.draw_ex(
             &Rectangle::new((x as u32 * 32 + 8, y as u32 * 32 + 8), (16, 16)),
             Col(Color::GREEN),
             Transform::rotate(22.5),
             0,
         );
-        _window.draw_ex(
+        window.draw_ex(
             &Rectangle::new((x as u32 * 32 + 8, y as u32 * 32 + 8), (16, 16)),
             Col(Color::GREEN),
             Transform::rotate(67.5),

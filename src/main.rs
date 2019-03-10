@@ -40,5 +40,5 @@ fn main() {
         console!(log, "in main");
     }
 
-    run::<Game>("Game", Vector::new(640, 480), Settings::default());
+    run::<Game>("Replay", Vector::new(640, 480), Settings::default());
 }
