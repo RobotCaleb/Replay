@@ -19,7 +19,7 @@ impl Finish {
         Finish { id: id, x: x, y: y }
     }
 
-    pub fn draw_debug(&mut self, window: &mut Window) {
+    pub fn draw_debug(&self, window: &mut Window) {
         let (x, y) = (self.x, self.y);
         window.draw(
             &Circle::new((x as u32 * 32 + 16, y as u32 * 32 + 16), 12),

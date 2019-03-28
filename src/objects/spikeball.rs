@@ -29,7 +29,7 @@ impl Spikeball {
         }
     }
 
-    pub fn draw_debug(&mut self, window: &mut Window) {
+    pub fn draw_debug(&self, window: &mut Window) {
         let (x, y) = (self.x, self.y);
         window.draw_ex(
             &Rectangle::new((x as u32 * 32 + 8, y as u32 * 32 + 8), (16, 16)),

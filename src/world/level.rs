@@ -1,7 +1,12 @@
 use crate::objects::*;
-use crate::world::{ClipType, Direction, DoorState, Entity, Input};
+use crate::world::{ClipType, Direction, DoorState, Entity};
 use futures::Future;
-use quicksilver::{lifecycle::Asset, load_file};
+use quicksilver::{
+    geom::Line,
+    graphics::{Background::Col, Color},
+    lifecycle::{Asset, Window},
+    load_file,
+};
 use std::collections::{HashMap, VecDeque};
 use std::path::Path;
 
@@ -433,8 +438,9 @@ impl Level {
     }
 
     #[allow(dead_code)]
-    pub fn process(level: &Level, input: &Input) -> Option<Level> {
+    pub fn process(level: &Level, (x, y): (i32, i32)) -> Option<(Level, Option<Vec<Level>>)> {
         let mut lvl = level.clone();
+        let mut intermediates = Vec::new();
 
         if lvl.is_dead() {
             return None;
@@ -443,80 +449,131 @@ impl Level {
         // first the player moves, triggering any teleports or switches
         // then the spikeballs move, triggering any teleports or switches
         // then the shadow moves, triggering any teleports or switches
-        match input {
-            Input::Move((x, y)) => {
-                let player = lvl.player.clone();
-                let new_pos = (player.x + x, player.y + y);
-                if lvl.can_move(player.id, new_pos) {
-                    // player move
-                    {
-                        lvl.set_entity_pos_by_id(player.id, new_pos);
-                        lvl.shadow_moves.push_front(new_pos);
-                        lvl.process_switches();
-                        lvl.process_teleports();
-                        if lvl.is_dead() {
-                            return Some(lvl);
-                        }
-                    }
-
-                    // spikeball move
-                    {
-                        let mut sp_move: (i32, i32);
-                        let sps = lvl.spikeballs.clone();
-                        for sp in &sps {
-                            match sp.dir {
-                                Direction::East => sp_move = (1, 0),
-                                Direction::North => sp_move = (0, -1),
-                                Direction::South => sp_move = (0, 1),
-                                Direction::West => sp_move = (-1, 0),
-                            }
-                            let mut new_pos = (sp_move.0 + sp.x, sp_move.1 + sp.y);
-                            let mut new_dir = &sp.dir;
-                            if !lvl.can_move(sp.id, new_pos) {
-                                match sp.dir {
-                                    Direction::East => new_dir = &Direction::West,
-                                    Direction::North => new_dir = &Direction::South,
-                                    Direction::South => new_dir = &Direction::North,
-                                    Direction::West => new_dir = &Direction::East,
-                                }
-                                lvl.set_spikeball_dir_by_id(sp.id, &new_dir);
-                            }
-                            match &new_dir {
-                                Direction::East => sp_move = (1, 0),
-                                Direction::North => sp_move = (0, -1),
-                                Direction::South => sp_move = (0, 1),
-                                Direction::West => sp_move = (-1, 0),
-                            }
-                            new_pos = (sp_move.0 + sp.x, sp_move.1 + sp.y);
-                            if lvl.can_move(sp.id, new_pos) {
-                                lvl.set_entity_pos_by_id(sp.id, new_pos);
-                            }
-                        }
-                        lvl.process_switches();
-                        lvl.process_teleports();
-                        if lvl.is_dead() {
-                            return Some(lvl);
-                        }
-                    }
-
-                    // shadow move
-                    {
-                        if lvl.shadow_moves.len() > lvl.follow_distance {
-                            let sm = lvl.shadow_moves.pop_back().unwrap();
-                            lvl.set_entity_pos_by_id(lvl.shadow.id, sm);
-                            lvl.process_switches();
-                            if lvl.is_dead() {
-                                return Some(lvl);
-                            }
-                        }
-                    }
-
-                    return Some(lvl);
+        let player = lvl.player.clone();
+        let new_pos = (player.x + x, player.y + y);
+        if lvl.can_move(player.id, new_pos) {
+            // player move
+            {
+                lvl.set_entity_pos_by_id(player.id, new_pos);
+                lvl.shadow_moves.push_front(new_pos);
+                lvl.process_switches();
+                lvl.process_teleports();
+                intermediates.push(lvl.clone());
+                if lvl.is_dead() {
+                    return Some((lvl, None));
                 }
             }
-            _ => panic!("Only Input::Move should be passed to process()"),
+
+            // spikeball move
+            {
+                let mut sp_move: (i32, i32);
+                let sps = lvl.spikeballs.clone();
+                for sp in &sps {
+                    match sp.dir {
+                        Direction::East => sp_move = (1, 0),
+                        Direction::North => sp_move = (0, -1),
+                        Direction::South => sp_move = (0, 1),
+                        Direction::West => sp_move = (-1, 0),
+                    }
+                    let mut new_pos = (sp_move.0 + sp.x, sp_move.1 + sp.y);
+                    let mut new_dir = &sp.dir;
+                    if !lvl.can_move(sp.id, new_pos) {
+                        match sp.dir {
+                            Direction::East => new_dir = &Direction::West,
+                            Direction::North => new_dir = &Direction::South,
+                            Direction::South => new_dir = &Direction::North,
+                            Direction::West => new_dir = &Direction::East,
+                        }
+                        lvl.set_spikeball_dir_by_id(sp.id, &new_dir);
+                    }
+                    match &new_dir {
+                        Direction::East => sp_move = (1, 0),
+                        Direction::North => sp_move = (0, -1),
+                        Direction::South => sp_move = (0, 1),
+                        Direction::West => sp_move = (-1, 0),
+                    }
+                    new_pos = (sp_move.0 + sp.x, sp_move.1 + sp.y);
+                    if lvl.can_move(sp.id, new_pos) {
+                        lvl.set_entity_pos_by_id(sp.id, new_pos);
+                    }
+                }
+                lvl.process_switches();
+                lvl.process_teleports();
+                intermediates.push(lvl.clone());
+                if lvl.is_dead() {
+                    return Some((lvl, None));
+                }
+            }
+
+            // shadow move
+            {
+                if lvl.shadow_moves.len() > lvl.follow_distance {
+                    let sm = lvl.shadow_moves.pop_back().unwrap();
+                    lvl.set_entity_pos_by_id(lvl.shadow.id, sm);
+                    lvl.process_switches();
+                    if lvl.is_dead() {
+                        return Some((lvl, None));
+                    }
+                }
+                intermediates.push(lvl.clone());
+            }
+
+            return Some((lvl, Some(intermediates)));
         }
 
         return None;
+    }
+
+    // this drawing is wrong!
+    // I think what needs to happen is assign a z value to everything that
+    // can be drawn
+    // draw them with draw_ex using z
+    // and draw everything one row at a time
+    // starting at the top of the screen
+    // That seems like it should do the right thing with the updated graphics
+    pub fn draw_debug(&self, window: &mut Window) {
+        for wall in &self.walls {
+            wall.draw_debug(window);
+        }
+        for door in &self.doors {
+            door.draw_debug(window);
+        }
+        let sws = self.switches.clone();
+        for switch in sws {
+            let (sx, sy) = (switch.x, switch.y);
+            let mut ox = 0;
+            let mut oy = 0;
+            let mut found = false;
+            for toggle in &switch.toggles {
+                if let Some(other_pos) = self.get_entity_pos_by_id(*toggle) {
+                    ox = other_pos.0;
+                    oy = other_pos.1;
+                    found = true;
+                }
+                if found {
+                    window.draw(
+                        &Line::new(
+                            (sx as u32 * 32 + 16, sy as u32 * 32 + 16),
+                            (ox as u32 * 32 + 16, oy as u32 * 32 + 16),
+                        )
+                        .with_thickness(1.0),
+                        Col(Color::RED),
+                    );
+                }
+            }
+            switch.draw_debug(window);
+        }
+        for spikeball in &self.spikeballs {
+            spikeball.draw_debug(window);
+        }
+        for teleport in &self.teleports {
+            teleport.draw_debug(window);
+        }
+
+        self.start.draw_debug(window);
+        self.finish.draw_debug(window);
+
+        self.player.draw_debug(window);
+        self.shadow.draw_debug(window);
     }
 }

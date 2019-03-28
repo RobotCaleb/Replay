@@ -6,7 +6,6 @@ use std::result::Result;
 use quicksilver::{
     geom::{Rectangle, Transform},
     graphics::{Background::Col, Color},
-    input::{ButtonState, Key},
     lifecycle::{Asset, State, Window},
     Result as QResult,
 };

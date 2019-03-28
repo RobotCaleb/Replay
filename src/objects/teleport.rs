@@ -27,7 +27,7 @@ impl Teleport {
         }
     }
 
-    pub fn draw_debug(&mut self, window: &mut Window) {
+    pub fn draw_debug(&self, window: &mut Window) {
         let (x, y) = (self.x, self.y);
         let (tx, ty) = (self.tx, self.ty);
 

@@ -2,10 +2,8 @@
 use crate::world::{misc::log, Input, Level, Loading, Replay};
 
 use quicksilver::{
-    geom::Line,
-    graphics::{Background::Col, Color},
-    input::{ButtonState, Key},
-    lifecycle::{Asset, State, Window},
+    graphics::Color,
+    lifecycle::{State, Window},
     Result,
 };
 
